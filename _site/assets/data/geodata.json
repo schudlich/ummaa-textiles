@@ -24,9 +24,9 @@
                 "language": "eng",
                 "rights": "Public Domain",
                 "rightsstatement": "https://creativecommons.org/publicdomain/mark/1.0/",
-                "object_thumb": "http://localhost:4000/objects/thumbs/demo_001_th.jpg",
-                "object_location": "http://localhost:4000/objects/demo_001.jpg",
-                "reference_url": "/items/demo_001.html"
+                "object_thumb": "http://localhost:4000/ummaa-textiles/objects/thumbs/demo_001_th.jpg",
+                "object_location": "http://localhost:4000/ummaa-textiles/objects/demo_001.jpg",
+                "reference_url": "/ummaa-textiles/items/demo_001.html"
             }
         }, 
         {
@@ -51,9 +51,9 @@
                 "language": "eng",
                 "rights": "Public Domain",
                 "rightsstatement": "https://creativecommons.org/publicdomain/mark/1.0/",
-                "object_thumb": "http://localhost:4000/objects/thumbs/demo_002_th.jpg",
-                "object_location": "http://localhost:4000/objects/demo_002.pdf",
-                "reference_url": "/items/demo_002.html"
+                "object_thumb": "http://localhost:4000/ummaa-textiles/objects/thumbs/demo_002_th.jpg",
+                "object_location": "http://localhost:4000/ummaa-textiles/objects/demo_002.pdf",
+                "reference_url": "/ummaa-textiles/items/demo_002.html"
             }
         }, 
         {
@@ -78,9 +78,9 @@
                 "language": "eng",
                 "rights": "In Copyright - Educational Use Permitted. For more information, please contact University of Idaho Library Special Collections and Archives Department at libspec@uidaho.edu.",
                 "rightsstatement": "http://rightsstatements.org/vocab/InC-EDU/1.0/",
-                "object_thumb": "http://localhost:4000/objects/thumbs/demo_003_th.jpg",
-                "object_location": "http://localhost:4000/objects/demo_003.mp3",
-                "reference_url": "/items/demo_003.html"
+                "object_thumb": "http://localhost:4000/ummaa-textiles/objects/thumbs/demo_003_th.jpg",
+                "object_location": "http://localhost:4000/ummaa-textiles/objects/demo_003.mp3",
+                "reference_url": "/ummaa-textiles/items/demo_003.html"
             }
         }, 
         {
@@ -107,7 +107,7 @@
                 "rightsstatement": "http://rightsstatements.org/vocab/InC-EDU/1.0/",
                 "object_thumb": "https://img.youtube.com/vi/CVXQ3X6Q8oU/mqdefault.jpg",
                 "object_location": "https://youtu.be/CVXQ3X6Q8oU",
-                "reference_url": "/items/demo_004.html"
+                "reference_url": "/ummaa-textiles/items/demo_004.html"
             }
         }, 
         {
@@ -134,7 +134,7 @@
                 "rightsstatement": "http://rightsstatements.org/vocab/InC-EDU/1.0/",
                 
                 "object_location": "https://vimeo.com/464555587",
-                "reference_url": "/items/demo_005.html"
+                "reference_url": "/ummaa-textiles/items/demo_005.html"
             }
         }, 
         {
@@ -161,7 +161,7 @@
                 "rightsstatement": "https://creativecommons.org/publicdomain/mark/1.0/",
                 "object_thumb": "https://www.lib.uidaho.edu/collectionbuilder/demo-objects/thumbs/demo_006_th.jpg",
                 "object_location": "https://www.lib.uidaho.edu/collectionbuilder/demo-objects/demo_006.jpg",
-                "reference_url": "/items/demo_006.html"
+                "reference_url": "/ummaa-textiles/items/demo_006.html"
             }
         }, 
         {
@@ -188,7 +188,7 @@
                 
                 
                 "object_location": "https://www.doi.org/10.1577/M02-113",
-                "reference_url": "/items/demo_007.html"
+                "reference_url": "/ummaa-textiles/items/demo_007.html"
             }
         }, 
         {
@@ -215,7 +215,7 @@
                 "rightsstatement": "http://rightsstatements.org/vocab/InC-EDU/1.0/",
                 "object_thumb": "https://cdil.lib.uidaho.edu/keeping-watch/objects/thumbs/outside_shot_hells_half_th.jpg",
                 "object_location": "",
-                "reference_url": "/items/demo_008.html"
+                "reference_url": "/ummaa-textiles/items/demo_008.html"
             }
         }, 
         {
@@ -241,8 +241,8 @@
                 
                 
                 "object_thumb": "https://cdil.lib.uidaho.edu/keeping-watch/objects/thumbs/hells_half_theta_th.jpg",
-                "object_location": "http://localhost:4000/objects/hells_half_theta.jpg",
-                "reference_url": "/items/demo_008.html#demo_009"
+                "object_location": "http://localhost:4000/ummaa-textiles/objects/hells_half_theta.jpg",
+                "reference_url": "/ummaa-textiles/items/demo_008.html#demo_009"
             }
         }, 
         {
@@ -269,7 +269,7 @@
                 
                 
                 "object_location": "https://cdil.lib.uidaho.edu/keeping-watch/objects/videos/patrick_records_weather.MP4",
-                "reference_url": "/items/demo_008.html#demo_010"
+                "reference_url": "/ummaa-textiles/items/demo_008.html#demo_010"
             }
         }, 
         {
@@ -296,7 +296,7 @@
                 
                 "object_thumb": "https://cdil.lib.uidaho.edu/keeping-watch/objects/thumbs/outside_shot_hells_half_th.jpg",
                 "object_location": "https://cdil.lib.uidaho.edu/keeping-watch/objects/hell-s-half-acre/outside_shot_hells_half.JPG",
-                "reference_url": "/items/demo_008.html#demo_011"
+                "reference_url": "/ummaa-textiles/items/demo_008.html#demo_011"
             }
         }, 
         {
@@ -323,7 +323,7 @@
                 
                 
                 "object_location": "https://cdil.lib.uidaho.edu/keeping-watch/objects/videos/patrick_the_human_being.mp4",
-                "reference_url": "/items/demo_008.html#demo_012"
+                "reference_url": "/ummaa-textiles/items/demo_008.html#demo_012"
             }
         }, 
         {
@@ -349,8 +349,8 @@
                 
                 
                 "object_thumb": "https://cdil.lib.uidaho.edu/keeping-watch/objects/thumbs/hells_half_theta_th.jpg",
-                "object_location": "http://localhost:4000/objects/hells_half_theta.jpg",
-                "reference_url": "/items/demo_017.html"
+                "object_location": "http://localhost:4000/ummaa-textiles/objects/hells_half_theta.jpg",
+                "reference_url": "/ummaa-textiles/items/demo_017.html"
             }
         }, 
         {
@@ -375,9 +375,9 @@
                 "language": "eng",
                 "rights": "Educational use includes non-commercial use of text and images in materials for teaching and research purposes. Digital reproduction rights granted by University of Idaho Library. For other uses beyond educational use, please contact University of Idaho Library Special Collections and Archives Department at libspec@uidaho.edu.",
                 "rightsstatement": "http://rightsstatements.org/vocab/InC-EDU/1.0/",
-                "object_thumb": "http://localhost:4000/objects/thumbs/210a_th.jpg",
+                "object_thumb": "http://localhost:4000/ummaa-textiles/objects/thumbs/210a_th.jpg",
                 "object_location": "",
-                "reference_url": "/items/demo_018.html"
+                "reference_url": "/ummaa-textiles/items/demo_018.html"
             }
         }, 
         {
@@ -404,7 +404,7 @@
                 
                 "object_thumb": "https://www.lib.uidaho.edu/blackhistory/objects/thumbs/ma2000_29_001_th.jpg",
                 "object_location": "",
-                "reference_url": "/items/demo_021.html"
+                "reference_url": "/ummaa-textiles/items/demo_021.html"
             }
         }, 
         {
@@ -431,7 +431,7 @@
                 "rightsstatement": "http://rightsstatements.org/vocab/InC-EDU/1.0/",
                 "object_thumb": "https://objects.lib.uidaho.edu/archivalidaho/thumbs/archivalidaho1161_th.jpg",
                 "object_location": "https://objects.lib.uidaho.edu/archivalidaho/archivalidaho1161.jpg",
-                "reference_url": "/items/demo_031.html"
+                "reference_url": "/ummaa-textiles/items/demo_031.html"
             }
         }, 
         {
@@ -458,7 +458,7 @@
                 "rightsstatement": "https://creativecommons.org/publicdomain/mark/1.0/",
                 "object_thumb": "https://objects.lib.uidaho.edu/postcards/thumbs/pg_9_16_01a_th.jpg",
                 "object_location": "",
-                "reference_url": "/items/demo_032.html"
+                "reference_url": "/ummaa-textiles/items/demo_032.html"
             }
         }
     ]

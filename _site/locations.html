@@ -3,8 +3,8 @@
   <head prefix="og: http://ogp.me/ns#">
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Locations | CollectionBuilder CSV</title>
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<title>Locations | University of Michigan Museum of Anthropological Archaeology Philippine Textiles Collection</title>
+<link rel="shortcut icon" type="image/x-icon" href="/ummaa-textiles/favicon.ico">
 <!--
 
   _____     ____        __  _           ___       _ __   __       
@@ -19,26 +19,20 @@
 <meta http-equiv="Content-Language" content="en-us" >
 
 <!-- load style sheets -->
-<link rel="stylesheet" href="/assets/lib/bootstrap.min.css" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"><link rel="stylesheet" href="/ummaa-textiles/assets/lib/bootstrap.min.css" type="text/css">
 <!-- load custom css last to allow overrides -->
-<link rel="stylesheet" href="/assets/css/cb.css" type="text/css">
+<link rel="stylesheet" href="/ummaa-textiles/assets/css/cb.css" type="text/css">
 
-
+<meta name="robots" content="noindex" />
 <!-- Last build date: 2025-11-22 -->
   </head>
   <body class="d-flex flex-column h-100">
     <div id="skip-to-content"><a href="#maincontent">Skip to main content</a></div>
     <div class="container">
     <div class="row align-items-center">
-        <div id="title" class="col-md-9">
-            <h1 class="mt-2"><a class="text-dark" href="/" >CollectionBuilder CSV</a></h1>	 
-            <p>Digital Collection Magic with Static Web Technologies</p>
-        </div>
-        
-        <div class="col-md-3 d-none d-lg-block text-end">
-            <a class="btn btn-outline-light" href="https://cdil.lib.uidaho.edu/">
-                <img class="img-fluid" src="https://www.lib.uidaho.edu/collectionbuilder/cdil-black.png" title="Center for Digital Inquiry and Learning (CDIL)" alt="Center for Digital Inquiry and Learning (CDIL) home" >
-            </a>
+        <div id="title" class="col-12">
+            <h1 class="mt-2"><a class="text-dark" href="/ummaa-textiles/" >University of Michigan Museum of Anthropological Archaeology Philippine Textiles Collection</a></h1>	 
+            <p>Featured textiles from the UMMAA Philippine Collections.</p>
         </div>
         
     </div>
@@ -49,51 +43,47 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <span class="d-lg-none text-end">
-            <a href="https://cdil.lib.uidaho.edu/">
-                <img class="img-fluid" id="mobile-nav-image" src="https://www.lib.uidaho.edu/collectionbuilder/cdil-white.png" title="Center for Digital Inquiry and Learning (CDIL)" alt="Center for Digital Inquiry and Learning (CDIL) home" >
-            </a>
-        </span>
+        
         
         <div class="collapse navbar-collapse" id="page-nav">
             <ul class="navbar-nav me-auto">
                 
                 <li class="nav-item">
-                    <a class="nav-link" href="/">Home</a>
+                    <a class="nav-link" href="/ummaa-textiles/">Home</a>
                 </li>
                 
                 <li class="nav-item">
-                    <a class="nav-link" href="/browse.html">Browse</a>
+                    <a class="nav-link" href="/ummaa-textiles/browse.html">Browse</a>
                 </li>
                 
                 <li class="nav-item">
-                    <a class="nav-link" href="/subjects.html">Subjects</a>
+                    <a class="nav-link" href="/ummaa-textiles/subjects.html">Subjects</a>
                 </li>
                 
                 <li class="nav-item">
-                    <a class="nav-link active" href="/locations.html">Locations</a>
+                    <a class="nav-link active" href="/ummaa-textiles/locations.html">Locations</a>
                 </li>
                 
                 <li class="nav-item">
-                    <a class="nav-link" href="/map.html">Map</a>
+                    <a class="nav-link" href="/ummaa-textiles/map.html">Map</a>
                 </li>
                 
                 <li class="nav-item">
-                    <a class="nav-link" href="/timeline.html">Timeline</a>
+                    <a class="nav-link" href="/ummaa-textiles/timeline.html">Timeline</a>
                 </li>
                 
                 <li class="nav-item">
-                    <a class="nav-link" href="/data.html">Data</a>
+                    <a class="nav-link" href="/ummaa-textiles/data.html">Data</a>
                 </li>
                 
                 <li class="nav-item">
-                    <a class="nav-link" href="/about.html">About</a>
+                    <a class="nav-link" href="/ummaa-textiles/about.html">About</a>
                 </li></ul>
             
             <script>
     function site_search() {
         var query = document.getElementById("site-search").value;
-        window.open("/search/index.html?q=" + encodeURIComponent(query), "_self" );
+        window.open("/ummaa-textiles/search/index.html?q=" + encodeURIComponent(query), "_self" );
     }
 </script>
 <form class="form-inline my-2 my-lg-0" role="search" id="search" onsubmit="site_search(); return false;">
@@ -140,7 +130,7 @@ Word size is determined by frequency and all words link to a corresponding colle
         
         for (let i = 0; i < array.length; i++) {
             size = mapSize(array[i][1]);
-            items += '<a class="btn btn-outline-primary m-2 tagcloud' + size + '" href="/browse.html#' + array[i][2] + ':' + encodeURIComponent(array[i][0]) + '" >' + array[i][0] + '</a>';
+            items += '<a class="btn btn-outline-primary m-2 tagcloud' + size + '" href="/ummaa-textiles/browse.html#' + array[i][2] + ':' + encodeURIComponent(array[i][0]) + '" >' + array[i][0] + '</a>';
         }
         cloud.innerHTML = items;
     }
@@ -157,41 +147,41 @@ Word size is determined by frequency and all words link to a corresponding colle
 
         <div class="col-md-7 px-4 mt-3">
 
-            <h2 class="h4"><a href="/" class="text-white">CollectionBuilder CSV</a></h2>
-            <p class="text-white"><small>CollectionBuilder-CSV is a template for creating digital collection exhibits using static web technology.</small></p>
+            <h2 class="h4"><a href="/ummaa-textiles/" class="text-white">University of Michigan Museum of Anthropological Archaeology Philippine Textiles Collection</a></h2>
+            <p class="text-white"><small>A digital collection exhibit showcasing selected textiles from the University of Michigan Museum of Anthropological Archaeology's Philippine Collections.</small></p>
             <nav>
                 <ul id="footer-nav" class="nav nav-pills ">
                     <li class="nav-item">
                     
-                        <a class="nav-link text-light" href="/">Home</a>
+                        <a class="nav-link text-light" href="/ummaa-textiles/">Home</a>
                     </li>
                     <li class="nav-item">
                     
-                        <a class="nav-link text-light" href="/browse.html">Browse</a>
+                        <a class="nav-link text-light" href="/ummaa-textiles/browse.html">Browse</a>
                     </li>
                     <li class="nav-item">
                     
-                        <a class="nav-link text-light" href="/subjects.html">Subjects</a>
+                        <a class="nav-link text-light" href="/ummaa-textiles/subjects.html">Subjects</a>
                     </li>
                     <li class="nav-item">
                     
-                        <a class="nav-link text-light active" href="/locations.html">Locations</a>
+                        <a class="nav-link text-light active" href="/ummaa-textiles/locations.html">Locations</a>
                     </li>
                     <li class="nav-item">
                     
-                        <a class="nav-link text-light" href="/map.html">Map</a>
+                        <a class="nav-link text-light" href="/ummaa-textiles/map.html">Map</a>
                     </li>
                     <li class="nav-item">
                     
-                        <a class="nav-link text-light" href="/timeline.html">Timeline</a>
+                        <a class="nav-link text-light" href="/ummaa-textiles/timeline.html">Timeline</a>
                     </li>
                     <li class="nav-item">
                     
-                        <a class="nav-link text-light" href="/data.html">Data</a>
+                        <a class="nav-link text-light" href="/ummaa-textiles/data.html">Data</a>
                     </li>
                     <li class="nav-item">
                     
-                        <a class="nav-link text-light" href="/about.html">About</a>
+                        <a class="nav-link text-light" href="/ummaa-textiles/about.html">About</a>
                     </li></ul>
             </nav>
 
@@ -199,16 +189,11 @@ Word size is determined by frequency and all words link to a corresponding colle
 
         <div class="col-md-5 mt-3 text-center">
 
-            <p class="text-md-end">
-                <a href="https://cdil.lib.uidaho.edu/">
-                    <img id="footer-logo" class="img-fluid" src="https://www.lib.uidaho.edu/collectionbuilder/cdil-white.png" alt="Center for Digital Inquiry and Learning (CDIL) home">
-                </a>
-            </p>
-            
+           
             <p class="text-white text-md-end" id="footer-credits">
                 <small><em>built with</em>
                     <a href="https://collectionbuilder.github.io/" title="CollectionBuilder">
-                        <img src="/assets/img/collectionbuilder-logo.png" class="img-fluid" alt="CollectionBuilder" >
+                        <img src="/ummaa-textiles/assets/img/collectionbuilder-logo.png" class="img-fluid" alt="CollectionBuilder" >
                     </a>
                 </small>
             </p>
@@ -223,9 +208,9 @@ Word size is determined by frequency and all words link to a corresponding colle
 
 </footer>
     <!-- Bootstrap bundle JS -->
-<script src="/assets/lib/bootstrap.bundle.min.js"></script>
+<script src="/ummaa-textiles/assets/lib/bootstrap.bundle.min.js"></script>
 <!-- load other js -->
-<script src="/assets/lib/lazysizes.min.js" async></script>
+<script src="/ummaa-textiles/assets/lib/lazysizes.min.js" async></script>
 
 
     <script>
@@ -241,7 +226,7 @@ Word size is determined by frequency and all words link to a corresponding colle
 <a href="#maincontent" id="scroll-to-top" class="btn btn-link" title="Back to Top">
     <span class="visually-hidden">Back to top</span>
     <svg class="bi icon-sprite" role="img" aria-label="Up Arrow">
-        <use xlink:href="/assets/css/cb-icons.svg#icon-back-to-top"/>
+        <use xlink:href="/ummaa-textiles/assets/css/cb-icons.svg#icon-back-to-top"/>
     </svg>
 </a>
   </body>

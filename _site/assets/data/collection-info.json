@@ -1,12 +1,12 @@
 { 
-    "title": "CollectionBuilder CSV",
-    "url": "http://localhost:4000/",
+    "title": "University of Michigan Museum of Anthropological Archaeology Philippine Textiles Collection",
+    "url": "http://localhost:4000/ummaa-textiles/",
     "image": "https://objects.lib.uidaho.edu/postcards/pg_9_16_01a.jpg", 
-    "description": "CollectionBuilder-CSV is a template for creating digital collection exhibits using static web technology.",
+    "description": "A digital collection exhibit showcasing selected textiles from the University of Michigan Museum of Anthropological Archaeology's Philippine Collections.",
     "publisher": { 
-        "name": "Center for Digital Inquiry and Learning (CDIL)", 
-        "url": "https://cdil.lib.uidaho.edu/", 
-        "logo": "https://www.lib.uidaho.edu/collectionbuilder/cdil-black.png" 
+        "name": "University of Michigan Museum of Anthropological Archaeology - Philippine Collections", 
+        "url": "https://sites.lsa.umich.edu/ummaa-philippines/", 
+        "logo": "" 
     },
     "date_start": "1898",
     "date_end": "2022",
@@ -20,7 +20,7 @@
         "text/html": "1"
         
     },
-    "data": "http://localhost:4000/assets/data/datapackage.json",
+    "data": "http://localhost:4000/ummaa-textiles/assets/data/datapackage.json",
     "last_build_date": "2025-11-22"
 }
 
