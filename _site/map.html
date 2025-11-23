@@ -299,7 +299,7 @@
     /* check for url parameters and setup initial view options */ 
     let url = new URL(window.location);
     const locationSearchParams = url.searchParams.get('location');
-    var mapCenter = locationSearchParams ? locationSearchParams.split(',') : [46.727485, -117.014185];
+    var mapCenter = locationSearchParams ? locationSearchParams.split(',') : [14.5958, 120.9772];
     var mapZoom = locationSearchParams ? 16 : 5;
     var markerFilter = url.searchParams.get('marker') ? url.searchParams.get('marker') : "";
 
@@ -330,7 +330,7 @@
     };
     L.control.layers(baseMaps).addTo(map);
     /* load base map */
-    Esri_WorldStreetMap.addTo(map);
+    OpenStreetMap_Mapnik.addTo(map);
 
     
     /* add search, https://github.com/naomap/leaflet-fusesearch */
@@ -489,16 +489,8 @@ function getIcon(objectTemplate,objectFormat,svgType) {
     map.addLayer(markers);
 
     
-    /* if no location was specified in the URL query parameters, auto center the map */
-    if (locationSearchParams === null) {
-        const featureBounds = mapFeatures.getBounds()
-        if (featureBounds?.isValid()) {
-            map.fitBounds(featureBounds);
-        }
-    } else {
-        /* set map view based on URL parameters */
-        map.setView(mapCenter, mapZoom);
-    }
+    /* set map view based on configuration or URL parameters */
+    map.setView(mapCenter, mapZoom);
     
     
     

@@ -49,7 +49,7 @@ locations-stopwords: # set of subjects separated by ; that will be removed from 
 # MAP PAGE
 #
 # see _data/map-config.csv for field display options
-auto-center-map: true # have the map auto fit all features into its view
+# auto-center-map: true # have the map auto fit all features into its view
 latitude: 14.5958 # to manually center map if not using auto-center-map option
 longitude: 120.9772 # to manually center map if not using auto-center-map option
 zoom-level: 5 # zoom level for map if not using auto-center-map option
