@@ -1,0 +1,13 @@
+{ "locations": [
+    { "location" : "hell's half acre", "count" : 5, "link" : "http://localhost:4000/browse.html#hell's%20half%20acre" },
+    { "location" : "moscow, idaho", "count" : 4, "link" : "http://localhost:4000/browse.html#moscow,%20idaho" },
+    { "location" : "spokane, washington", "count" : 1, "link" : "http://localhost:4000/browse.html#spokane,%20washington" },
+    { "location" : "ashland, or", "count" : 1, "link" : "http://localhost:4000/browse.html#ashland,%20or" },
+    { "location" : "bonner county", "count" : 1, "link" : "http://localhost:4000/browse.html#bonner%20county" },
+    { "location" : "priest river experimental forest", "count" : 1, "link" : "http://localhost:4000/browse.html#priest%20river%20experimental%20forest" },
+    { "location" : "benton creek", "count" : 1, "link" : "http://localhost:4000/browse.html#benton%20creek" },
+    { "location" : "bonneville dam", "count" : 1, "link" : "http://localhost:4000/browse.html#bonneville%20dam" },
+    { "location" : "spokane, wa", "count" : 1, "link" : "http://localhost:4000/browse.html#spokane,%20wa" },
+    { "location" : "moscow, id", "count" : 1, "link" : "http://localhost:4000/browse.html#moscow,%20id" },
+    { "location" : "salmon-challis national forest, idaho", "count" : 1, "link" : "http://localhost:4000/browse.html#salmon-challis%20national%20forest,%20idaho" }
+]}

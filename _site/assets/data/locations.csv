@@ -1,0 +1,12 @@
+location,count,link
+"hell's half acre",5,"http://localhost:4000/browse.html#hell's%20half%20acre"
+"moscow, idaho",4,"http://localhost:4000/browse.html#moscow,%20idaho"
+"spokane, washington",1,"http://localhost:4000/browse.html#spokane,%20washington"
+"ashland, or",1,"http://localhost:4000/browse.html#ashland,%20or"
+"bonner county",1,"http://localhost:4000/browse.html#bonner%20county"
+"priest river experimental forest",1,"http://localhost:4000/browse.html#priest%20river%20experimental%20forest"
+"benton creek",1,"http://localhost:4000/browse.html#benton%20creek"
+"bonneville dam",1,"http://localhost:4000/browse.html#bonneville%20dam"
+"spokane, wa",1,"http://localhost:4000/browse.html#spokane,%20wa"
+"moscow, id",1,"http://localhost:4000/browse.html#moscow,%20id"
+"salmon-challis national forest, idaho",1,"http://localhost:4000/browse.html#salmon-challis%20national%20forest,%20idaho"

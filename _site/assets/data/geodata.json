@@ -1,0 +1,465 @@
+{
+    "type": "FeatureCollection",
+    "features": [ 
+        
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-117.009633,46.725562]
+            },            
+            "properties":{
+                "title": "Administration Building, University of Idaho, No. 30",
+                "creator": "Pacific Photo Co.",
+                "date": "1910",
+                "description": "Example locally hosted image item. Photographic postcard of the University of Idaho administration building in Moscow, Idaho.",
+                "subject": "universities; buildings; campuses; picture postcards",
+                "location": "Moscow, Idaho",
+                "latitude": "46.725562",
+                "longitude": "-117.009633",
+                "source": "PG 9, Postcard Collection, Special Collections and Archives, University of Idaho Library",
+                "identifier": "pg_9_12_01bl",
+                "type": "Image;StillImage",
+                "format": "image/jpeg",
+                "language": "eng",
+                "rights": "Public Domain",
+                "rightsstatement": "https://creativecommons.org/publicdomain/mark/1.0/",
+                "object_thumb": "http://localhost:4000/objects/thumbs/demo_001_th.jpg",
+                "object_location": "http://localhost:4000/objects/demo_001.jpg",
+                "reference_url": "/items/demo_001.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-117.428031,47.66432]
+            },            
+            "properties":{
+                "title": "Spokane County Court House, Spokane, Washington",
+                "creator": "Spokane Post Card Co.",
+                "date": "1912-09-08",
+                "description": "Example locally hosted PDF item. Postcard is of the Spokane County Courthouse in Spokane, Washington. Postmark 9/8/1912, Spokane, WA. Destination San Francisco, CA.",
+                "subject": "public buildings; county courthouses; trees; picture postcards",
+                "location": "Spokane, Washington",
+                "latitude": "47.66432",
+                "longitude": "-117.428031",
+                "source": "PG 107, Knowles Postcard Collection, Special Collections and Archives, University of Idaho Library",
+                "identifier": "Postcard_032",
+                "type": "Image;StillImage",
+                "format": "application/pdf",
+                "language": "eng",
+                "rights": "Public Domain",
+                "rightsstatement": "https://creativecommons.org/publicdomain/mark/1.0/",
+                "object_thumb": "http://localhost:4000/objects/thumbs/demo_002_th.jpg",
+                "object_location": "http://localhost:4000/objects/demo_002.pdf",
+                "reference_url": "/items/demo_002.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-116.991779,46.733001]
+            },            
+            "properties":{
+                "title": "Good News – Power (Radio Episode Excerpt)",
+                "creator": "Robinson, Frank B.",
+                "date": "1947",
+                "description": "Example locally hosted audio item. A short excerpt from a Psychiana radio program episode that begins with assurance that there is a Power that can get people what they desire. Robinson then discusses his early life failures and childhood seeking of some force that could turn his failures into success. He asserts the God-Power can turn our failures into success and bring us material and spiritual abundance.",
+                "subject": "Frank B. Robinson; Failure; Success; Material Abundance",
+                "location": "Moscow, Idaho",
+                "latitude": "46.733001",
+                "longitude": "-116.991779",
+                "source": "Psychiana Digital Collection, Digital Initiatives, University of Idaho Library, https://www.lib.uidaho.edu/digital/psychiana/",
+                "identifier": "Good_News_08",
+                "type": "Audio",
+                "format": "audio/mp3",
+                "language": "eng",
+                "rights": "In Copyright - Educational Use Permitted. For more information, please contact University of Idaho Library Special Collections and Archives Department at libspec@uidaho.edu.",
+                "rightsstatement": "http://rightsstatements.org/vocab/InC-EDU/1.0/",
+                "object_thumb": "http://localhost:4000/objects/thumbs/demo_003_th.jpg",
+                "object_location": "http://localhost:4000/objects/demo_003.mp3",
+                "reference_url": "/items/demo_003.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-117.015671,46.726113]
+            },            
+            "properties":{
+                "title": "University of Idaho vs. University of Southern California (Football), 10/30/1925",
+                "creator": "Vandal Athletics",
+                "date": "1925-10-30",
+                "description": "Example YouTube video item. Idaho Football vs. University of Southern California 10/30/1925 at Neale Stadium in Moscow, ID. Score: 7 - 51 (L). Silent film footage.",
+                "subject": "American Football",
+                "location": "Moscow, Idaho",
+                "latitude": "46.726113",
+                "longitude": "-117.015671",
+                "source": "Vandal Video Collection, Digital Initiatives, University of Idaho Library, https://www.lib.uidaho.edu/digital/vandalvideo/",
+                "identifier": "MG 23, Item 29",
+                "type": "Image;MovingImage",
+                "format": "video/mp4",
+                "language": "eng",
+                "rights": "In Copyright - Educational Use Permitted. For more information, please contact University of Idaho Library Special Collections and Archives Department at libspec@uidaho.edu.",
+                "rightsstatement": "http://rightsstatements.org/vocab/InC-EDU/1.0/",
+                "object_thumb": "https://img.youtube.com/vi/CVXQ3X6Q8oU/mqdefault.jpg",
+                "object_location": "https://youtu.be/CVXQ3X6Q8oU",
+                "reference_url": "/items/demo_004.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-122.728533,42.1916714]
+            },            
+            "properties":{
+                "title": "Interview with K. Silem Mohammad",
+                "creator": "Becker, Devin",
+                "date": "2014-06-16",
+                "description": "Example Vimeo video item. Oral history interview with poet K. Silem Mohammad discussing recent changes in writing practices that occurred due to the advent of the computer and the arrival of the digital age.",
+                "subject": "Poetry",
+                "location": "Ashland, OR",
+                "latitude": "42.1916714",
+                "longitude": "-122.728533",
+                "source": "CTRL+Shift, Center for Digital Inquiry and Learning, University of Idaho Library, https://ctrl-shift.org/",
+                
+                "type": "Image;MovingImage",
+                "format": "video/mp4",
+                "language": "eng",
+                "rights": "In Copyright - Educational Use Permitted. For more information, please contact University of Idaho Library Special Collections and Archives Department at libspec@uidaho.edu.",
+                "rightsstatement": "http://rightsstatements.org/vocab/InC-EDU/1.0/",
+                
+                "object_location": "https://vimeo.com/464555587",
+                "reference_url": "/items/demo_005.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-116.8483333,48.34472222]
+            },            
+            "properties":{
+                "title": "Ford pumper used for slash burning control",
+                "creator": "Thompson, J. B.",
+                "date": "1932-09-01",
+                "description": "Example image item externally hosted. Ford pumper used for slash burning control. September 1932. From the photo series depicting the broadcast burn at the mouth of Benton Creek.",
+                "subject": "forestry",
+                "location": "Bonner County;Priest River Experimental Forest;Benton Creek",
+                "latitude": "48.34472222",
+                "longitude": "-116.8483333",
+                "source": "Experimental Forest and Savenac Nursery Archive, Digital Initiatives, University of Idaho Library, https://www.lib.uidaho.edu/digital/expforest/",
+                "identifier": "FirePump1",
+                "type": "Image;StillImage",
+                "format": "image/jpeg",
+                "language": "eng",
+                "rights": "Material produced by the United States Forest Service and is in Public Domain. For more information, please contact University of Idaho Library Special Collections and Archives Department at libspec@uidaho.edu.",
+                "rightsstatement": "https://creativecommons.org/publicdomain/mark/1.0/",
+                "object_thumb": "https://www.lib.uidaho.edu/collectionbuilder/demo-objects/thumbs/demo_006_th.jpg",
+                "object_location": "https://www.lib.uidaho.edu/collectionbuilder/demo-objects/demo_006.jpg",
+                "reference_url": "/items/demo_006.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-121.9428256,45.6442837]
+            },            
+            "properties":{
+                "title": "Influence of Fishway Placement on Fallback of Adult Salmon at the Bonneville Dam on the Columbia River",
+                "creator": "Reischel, T.S.; Bjornn, T.C.",
+                "date": "2003",
+                "description": "Example metadata-only record with link to external source. Journal article.",
+                "subject": "fisheries management",
+                "location": "Bonneville Dam",
+                "latitude": "45.6442837",
+                "longitude": "-121.9428256",
+                "source": "North American Journal of Fisheries Management, vol. 23, issue 4, p. 1215-1224. DOI: 10.1577/M02-113",
+                "identifier": "DOI:10.1577/M02-113",
+                "type": "Text",
+                "format": "application/pdf",
+                "language": "eng",
+                "rights": "Metadata-only record, please check publication for rights",
+                
+                
+                "object_location": "https://www.doi.org/10.1577/M02-113",
+                "reference_url": "/items/demo_007.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-114.62838,45.64579]
+            },            
+            "properties":{
+                "title": "Hell's Half Acre",
+                "creator": "Keeping Watch",
+                
+                "description": "Example compound object. Hells Half Acre is an R-6 cabin that is easily accessible by road in the Selway-Bitterroot Wilderness. Originally a platform on top of a forty-foot-tall tower, the original Hell's Half Acre cabin was an L-4.  Now one of the most popular lookouts in Idaho or Montana, it sits above a snag forest of mostly lodgepole pine. A sign at the base of the summit informs drivers that the tower opens at 9 am. Unsure if this refers to mountain or pacific time, we wait at the sign and drink our coffee.",
+                
+                
+                "latitude": "45.64579",
+                "longitude": "-114.62838",
+                "source": "Keeping Watch Fire Tower Oral HIstory Project",
+                
+                "type": "record",
+                "format": "compound_object",
+                "language": "eng",
+                "rights": "In Copyright - Educational Use Permitted. For more information, please contact University of Idaho Library Special Collections and Archives Department at libspec@uidaho.edu.",
+                "rightsstatement": "http://rightsstatements.org/vocab/InC-EDU/1.0/",
+                "object_thumb": "https://cdil.lib.uidaho.edu/keeping-watch/objects/thumbs/outside_shot_hells_half_th.jpg",
+                "object_location": "",
+                "reference_url": "/items/demo_008.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-114.62838,45.64579]
+            },            
+            "properties":{
+                "title": "Hell's Half Acre Lookout 360 Image",
+                "creator": "Keeping Watch",
+                "date": "2021-07-13",
+                "description": "Example child object. 360 Image of the Interior of Hell's Half Acre Fire Tower",
+                
+                "location": "Hell's Half Acre",
+                "latitude": "45.64579",
+                "longitude": "-114.62838",
+                
+                
+                "type": "Image;StillImage",
+                "format": "image/jpeg",
+                "language": "eng",
+                
+                
+                "object_thumb": "https://cdil.lib.uidaho.edu/keeping-watch/objects/thumbs/hells_half_theta_th.jpg",
+                "object_location": "http://localhost:4000/objects/hells_half_theta.jpg",
+                "reference_url": "/items/demo_008.html#demo_009"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-114.62838,45.64579]
+            },            
+            "properties":{
+                "title": "Patrick McMarron Records Fire Conditions at Hell's Half Acre Lookout",
+                "creator": "Keeping Watch",
+                "date": "2021-07-13",
+                "description": "Example child object. Video of Patrick McMarron recording fire conditions in July of 2021 on Hells Half Acre Fire Lookout",
+                
+                "location": "Hell's Half Acre",
+                "latitude": "45.64579",
+                "longitude": "-114.62838",
+                
+                
+                "type": "Image;MovingImage",
+                "format": "video/mp4",
+                "language": "eng",
+                
+                
+                
+                "object_location": "https://cdil.lib.uidaho.edu/keeping-watch/objects/videos/patrick_records_weather.MP4",
+                "reference_url": "/items/demo_008.html#demo_010"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-114.62838,45.64579]
+            },            
+            "properties":{
+                "title": "Outside shot of Hells Half Acre Lookout",
+                "creator": "Keeping Watch",
+                "date": "2021-07-13",
+                "description": "Example child object. Outside shot of Hells Half Acre Lookout",
+                
+                "location": "Hell's Half Acre",
+                "latitude": "45.64579",
+                "longitude": "-114.62838",
+                
+                
+                "type": "Image;StillImage",
+                "format": "image/jpeg",
+                "language": "eng",
+                
+                
+                "object_thumb": "https://cdil.lib.uidaho.edu/keeping-watch/objects/thumbs/outside_shot_hells_half_th.jpg",
+                "object_location": "https://cdil.lib.uidaho.edu/keeping-watch/objects/hell-s-half-acre/outside_shot_hells_half.JPG",
+                "reference_url": "/items/demo_008.html#demo_011"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-114.62838,45.64579]
+            },            
+            "properties":{
+                "title": "Patrick McMarron Discusses the Importance of Human Beings on the Lookout",
+                "creator": "Keeping Watch",
+                "date": "2021-07-13",
+                "description": "Example child object. Video of Patrick McMarron discussing the importance of human beings staffing fire lookouts",
+                "subject": "Patrick McMarron; Hell's Half Acre",
+                "location": "Hell's Half Acre",
+                "latitude": "45.64579",
+                "longitude": "-114.62838",
+                
+                
+                "type": "Image;MovingImage",
+                "format": "video/mp4",
+                "language": "eng",
+                
+                
+                
+                "object_location": "https://cdil.lib.uidaho.edu/keeping-watch/objects/videos/patrick_the_human_being.mp4",
+                "reference_url": "/items/demo_008.html#demo_012"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-114.62838,45.64579]
+            },            
+            "properties":{
+                "title": "Hell's Half Acre Lookout 360 Image",
+                "creator": "Keeping Watch",
+                "date": "2021-07-13",
+                "description": "Example panorama. 360 Image of the Interior of Hell's Half Acre Fire Tower",
+                
+                "location": "Hell's Half Acre",
+                "latitude": "45.64579",
+                "longitude": "-114.62838",
+                
+                
+                "type": "Image;StillImage",
+                "format": "image/jpeg",
+                "language": "eng",
+                
+                
+                "object_thumb": "https://cdil.lib.uidaho.edu/keeping-watch/objects/thumbs/hells_half_theta_th.jpg",
+                "object_location": "http://localhost:4000/objects/hells_half_theta.jpg",
+                "reference_url": "/items/demo_017.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-117.4249084,47.65710758]
+            },            
+            "properties":{
+                "title": "Spokane's Great Restaurant, Washington",
+                "creator": "Mitchell, Edward H.",
+                "date": "1909",
+                "description": "Example postcard using display template 'multiple.' Postcard is of the Davenport Hotel's Restaurant in Spokane, Washington.",
+                "subject": "restaurants; automobiles; buildings; picture postcards; flagpoles; flags",
+                "location": "Spokane, WA",
+                "latitude": "47.65710758",
+                "longitude": "-117.4249084",
+                "source": "PG 9, Postcard Collection, University of Idaho Library Special Collections and Archives, http://www.lib.uidaho.edu/special-collections/",
+                "identifier": "Postcard_038",
+                "type": "record",
+                "format": "multiple",
+                "language": "eng",
+                "rights": "Educational use includes non-commercial use of text and images in materials for teaching and research purposes. Digital reproduction rights granted by University of Idaho Library. For other uses beyond educational use, please contact University of Idaho Library Special Collections and Archives Department at libspec@uidaho.edu.",
+                "rightsstatement": "http://rightsstatements.org/vocab/InC-EDU/1.0/",
+                "object_thumb": "http://localhost:4000/objects/thumbs/210a_th.jpg",
+                "object_location": "",
+                "reference_url": "/items/demo_018.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-117.009633,46.725562]
+            },            
+            "properties":{
+                "title": "Jennie Eva Hughes, the First Black Graduate of the University of Idaho",
+                
+                "date": "1899",
+                "description": "Example compound object. Items from the Black History at University of Idaho that feature Jennie Eva Hughes, the first black graduate of the University of Idaho",
+                "subject": "Jennie Eva Hughes; Black History; University of Idaho",
+                "location": "Moscow, ID",
+                "latitude": "46.725562",
+                "longitude": "-117.009633",
+                "source": "<a href='https://www.lib.uidaho.edu/blackhistory/'>Black History at the University of Idaho Digital Collection</a>",
+                
+                "type": "record",
+                "format": "compound_object",
+                "language": "eng",
+                
+                
+                "object_thumb": "https://www.lib.uidaho.edu/blackhistory/objects/thumbs/ma2000_29_001_th.jpg",
+                "object_location": "",
+                "reference_url": "/items/demo_021.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-114.497639,45.239376]
+            },            
+            "properties":{
+                "title": "Mounted forest patrol looks across Middle Fork of Salmon River",
+                "creator": "Benedict, M.S.",
+                "date": "1937",
+                "description": "Mounted forest patrol looks across Middle Fork of Salmon River in the Salmon-Challis National Forest.",
+                "subject": "national forests; horses; rivers; riders; rangers; patrol; campsite; camp fire",
+                "location": "Salmon-Challis National Forest, Idaho",
+                "latitude": "45.239376",
+                "longitude": "-114.497639",
+                "source": "Archival Idaho Digital Collection, https://www.lib.uidaho.edu/digital/archivalidaho/items/archivalidaho1161.html",
+                "identifier": "IntermtnPics97",
+                "type": "Image;StillImage",
+                "format": "image/jpeg",
+                "language": "eng",
+                "rights": "In Copyright - Educational Use Permitted. Please note these materials are not held by University of Idaho Library Special Collections and Archives. For more information, please contact the institution listed in the Source.",
+                "rightsstatement": "http://rightsstatements.org/vocab/InC-EDU/1.0/",
+                "object_thumb": "https://objects.lib.uidaho.edu/archivalidaho/thumbs/archivalidaho1161_th.jpg",
+                "object_location": "https://objects.lib.uidaho.edu/archivalidaho/archivalidaho1161.jpg",
+                "reference_url": "/items/demo_031.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-116.983777,46.714253]
+            },            
+            "properties":{
+                "title": "Combined harvester, Moscow, Idaho",
+                "creator": "Inland Printing Co.",
+                "date": "1920",
+                "description": "Postcard of a combine harvesting grain in fields near Moscow, Idaho.",
+                "subject": "combines; fields (land); Equus caballus (species); men; picture postcards",
+                "location": "Moscow, Idaho",
+                "latitude": "46.714253",
+                "longitude": "-116.983777",
+                "source": "PG 9, Postcard Collection, University of Idaho Library Special Collections and Archives, https://www.lib.uidaho.edu/digital/postcards/items/nwpostcards1547.html",
+                "identifier": "pg_9_16_01a",
+                "type": "Image;StillImage",
+                "format": "image/jpeg",
+                "language": "eng",
+                "rights": "Material determined to be in Public Domain based on date of publication. Material made available by the University of Idaho Library. For more information, please contact University of Idaho Library Special Collections and Archives Department at libspec@uidaho.edu.",
+                "rightsstatement": "https://creativecommons.org/publicdomain/mark/1.0/",
+                "object_thumb": "https://objects.lib.uidaho.edu/postcards/thumbs/pg_9_16_01a_th.jpg",
+                "object_location": "",
+                "reference_url": "/items/demo_032.html"
+            }
+        }
+    ]
+}

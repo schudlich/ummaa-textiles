@@ -1,0 +1,418 @@
+{
+    "title": {
+        "media": {
+          "url": "https://objects.lib.uidaho.edu/postcards/pg_9_16_01a.jpg",
+          "alt": "Colored post card depicts golden rows of wheat on rolling hills with harvest machine being pushed by large horses",
+          "caption": null,
+          "credit": "CollectionBuilder CSV"
+        },
+        "text": {
+          "headline": "CollectionBuilder CSV Timeline",
+          "text": "CollectionBuilder-CSV is a template for creating digital collection exhibits using static web technology."
+        }
+    },
+    "events": [
+      {
+        "media": {
+          "url": "/objects/small/demo_001_sm.jpg",
+          "alt": "historic sepia photograph depicting a formal brick and stone building in the College Gothic style",
+          "caption": "Administration Building, University of Idaho, No. 30",
+          "link": "/items/demo_001.html"
+        },
+        "start_date": { 
+          
+          "year": "1910"
+        },
+        "text": {
+          "headline": "Administration Building, University of Idaho, No. 30",
+          "text": "Example locally hosted image item. Photographic postcard of the University of Idaho administration building in Moscow, Idaho."
+        }
+      },{
+        "media": {
+          "url": "/objects/small/demo_002_sm.jpg",
+          "alt": "historic colorized postcard depicting a formal building with a large central tower in the French Renaissance revival style",
+          "caption": "Spokane County Court House, Spokane, Washington",
+          "link": "/items/demo_002.html"
+        },
+        "start_date": { 
+          
+          "month": "09",
+          "day": "08",
+          "year": "1912"
+        },
+        "text": {
+          "headline": "Spokane County Court House, Spokane, Washington",
+          "text": "Example locally hosted PDF item. Postcard is of the Spokane County Courthouse in Spokane, Washington. Postmark 9/8/1912, Spokane, WA. Destination San Francisco, CA."
+        }
+      },{
+        "media": {
+          "url": "/objects/small/demo_003_sm.jpg",
+          "alt": "portrait of a man in a suit, with the text 'the amazing story of Psychiana' below",
+          "caption": "Good News – Power (Radio Episode Excerpt)",
+          "link": "/items/demo_003.html"
+        },
+        "start_date": { 
+          
+          "year": "1947"
+        },
+        "text": {
+          "headline": "Good News – Power (Radio Episode Excerpt)",
+          "text": "Example locally hosted audio item. A short excerpt from a Psychiana radio program episode that begins with assurance that there is a Power that can get people what they desire. Robinson then discusses his early life failures and childhood seeking of some force that could turn his failures into success. He asserts the God-Power can turn our failures into success and bring us material and spiritual abundance."
+        }
+      },{
+        "media": {
+          "url": "https://img.youtube.com/vi/CVXQ3X6Q8oU/hqdefault.jpg",
+          "alt": "grainy image from historic film depicting fans heading to football game",
+          "caption": "University of Idaho vs. University of Southern California (Football), 10/30/1925",
+          "link": "/items/demo_004.html"
+        },
+        "start_date": { 
+          
+          "month": "10",
+          "day": "30",
+          "year": "1925"
+        },
+        "text": {
+          "headline": "University of Idaho vs. University of Southern California (Football), 10/30/1925",
+          "text": "Example YouTube video item. Idaho Football vs. University of Southern California 10/30/1925 at Neale Stadium in Moscow, ID. Score: 7 - 51 (L). Silent film footage."
+        }
+      },{
+        "media": {
+          "url": "https://vimeo.com/464555587",
+          "alt": "Example Vimeo video item. Oral history interview with poet K. Silem Mohammad discussing recent changes in writing practices that occurred due to the advent of the computer and the arrival of the digital age.",
+          "caption": "Interview with K. Silem Mohammad",
+          "link": "/items/demo_005.html"
+        },
+        "start_date": { 
+          
+          "month": "06",
+          "day": "16",
+          "year": "2014"
+        },
+        "text": {
+          "headline": "Interview with K. Silem Mohammad",
+          "text": "Example Vimeo video item. Oral history interview with poet K. Silem Mohammad discussing recent changes in writing practices that occurred due to the advent of the computer and the arrival of the digital age."
+        }
+      },{
+        "media": {
+          "url": "https://www.lib.uidaho.edu/collectionbuilder/demo-objects/small/demo_006_sm.jpg",
+          "alt": "man standing with pump machinery next to a river with trees and mountains in the distance",
+          "caption": "Ford pumper used for slash burning control",
+          "link": "/items/demo_006.html"
+        },
+        "start_date": { 
+          
+          "month": "09",
+          "day": "01",
+          "year": "1932"
+        },
+        "text": {
+          "headline": "Ford pumper used for slash burning control",
+          "text": "Example image item externally hosted. Ford pumper used for slash burning control. September 1932. From the photo series depicting the broadcast burn at the mouth of Benton Creek."
+        }
+      },{
+        "media": {
+          "url": "https://www.doi.org/10.1577/M02-113",
+          "alt": "Example metadata-only record with link to external source. Journal article.",
+          "caption": "Influence of Fishway Placement on Fallback of Adult Salmon at the Bonneville Dam on the Columbia River",
+          "link": "/items/demo_007.html"
+        },
+        "start_date": { 
+          
+          "year": "2003"
+        },
+        "text": {
+          "headline": "Influence of Fishway Placement on Fallback of Adult Salmon at the Bonneville Dam on the Columbia River",
+          "text": "Example metadata-only record with link to external source. Journal article."
+        }
+      },{
+        "media": {
+          "url": "https://cdil.lib.uidaho.edu/keeping-watch/objects/small/hells_half_theta_sm.jpg",
+          "alt": "interior of a fire lookout tower with map in center and windows in all directions",
+          "caption": "Hell's Half Acre Lookout 360 Image",
+          "link": "/items/demo_008.html#demo_009"
+        },
+        "start_date": { 
+          
+          "month": "07",
+          "day": "13",
+          "year": "2021"
+        },
+        "text": {
+          "headline": "Hell's Half Acre Lookout 360 Image",
+          "text": "Example child object. 360 Image of the Interior of Hell's Half Acre Fire Tower"
+        }
+      },{
+        "media": {
+          "url": "https://cdil.lib.uidaho.edu/keeping-watch/objects/videos/patrick_records_weather.MP4",
+          "alt": "man in fire lookout tower records conditions in notebook",
+          "caption": "Patrick McMarron Records Fire Conditions at Hell's Half Acre Lookout",
+          "link": "/items/demo_008.html#demo_010"
+        },
+        "start_date": { 
+          
+          "month": "07",
+          "day": "13",
+          "year": "2021"
+        },
+        "text": {
+          "headline": "Patrick McMarron Records Fire Conditions at Hell's Half Acre Lookout",
+          "text": "Example child object. Video of Patrick McMarron recording fire conditions in July of 2021 on Hells Half Acre Fire Lookout"
+        }
+      },{
+        "media": {
+          "url": "https://cdil.lib.uidaho.edu/keeping-watch/objects/small/outside_shot_hells_half_sm.jpg",
+          "alt": "fire lookout tower with a flag pole and American flag",
+          "caption": "Outside shot of Hells Half Acre Lookout",
+          "link": "/items/demo_008.html#demo_011"
+        },
+        "start_date": { 
+          
+          "month": "07",
+          "day": "13",
+          "year": "2021"
+        },
+        "text": {
+          "headline": "Outside shot of Hells Half Acre Lookout",
+          "text": "Example child object. Outside shot of Hells Half Acre Lookout"
+        }
+      },{
+        "media": {
+          "url": "https://cdil.lib.uidaho.edu/keeping-watch/objects/videos/patrick_the_human_being.mp4",
+          "alt": "Patrick McMarron Discusses the Importance of Human Beings on the Lookout",
+          "caption": "Patrick McMarron Discusses the Importance of Human Beings on the Lookout",
+          "link": "/items/demo_008.html#demo_012"
+        },
+        "start_date": { 
+          
+          "month": "07",
+          "day": "13",
+          "year": "2021"
+        },
+        "text": {
+          "headline": "Patrick McMarron Discusses the Importance of Human Beings on the Lookout",
+          "text": "Example child object. Video of Patrick McMarron discussing the importance of human beings staffing fire lookouts"
+        }
+      },{
+        "media": {
+          "url": "https://cdil.lib.uidaho.edu/keeping-watch/objects/small/hells_half_theta_sm.jpg",
+          "alt": "interior of a fire lookout tower with map in center and windows in all directions",
+          "caption": "Hell's Half Acre Lookout 360 Image",
+          "link": "/items/demo_017.html"
+        },
+        "start_date": { 
+          
+          "month": "07",
+          "day": "13",
+          "year": "2021"
+        },
+        "text": {
+          "headline": "Hell's Half Acre Lookout 360 Image",
+          "text": "Example panorama. 360 Image of the Interior of Hell's Half Acre Fire Tower"
+        }
+      },{
+        "media": {
+          "url": "/objects/small/210a_sm.jpg",
+          "alt": "historic colorized postcard depicting a fancy multi-story white building with several early cars parked in front",
+          "caption": "Spokane's Great Restaurant, Washington",
+          "link": "/items/demo_018.html"
+        },
+        "start_date": { 
+          
+          "year": "1909"
+        },
+        "text": {
+          "headline": "Spokane's Great Restaurant, Washington",
+          "text": "Example postcard using display template 'multiple.' Postcard is of the Davenport Hotel's Restaurant in Spokane, Washington."
+        }
+      },{
+        "media": {
+          "url": "https://www.lib.uidaho.edu/blackhistory/objects/small/ma2000_29_001_sm.jpg",
+          "alt": "University of Idaho enrollment form filled in with handwritten cursive script saying \"Jennie Eva Hughes, Sept 23, 1898\"",
+          "caption": "Jennie Eva Hughes, the First Black Graduate of the University of Idaho",
+          "link": "/items/demo_021.html"
+        },
+        "start_date": { 
+          
+          "year": "1899"
+        },
+        "text": {
+          "headline": "Jennie Eva Hughes, the First Black Graduate of the University of Idaho",
+          "text": "Example compound object. Items from the Black History at University of Idaho that feature Jennie Eva Hughes, the first black graduate of the University of Idaho"
+        }
+      },{
+        "media": {
+          "url": "https://www.lib.uidaho.edu/blackhistory/objects/small/mg5758_001_sm.jpg",
+          "alt": "black and white portrait of an African American woman in a dress",
+          "caption": "Portrait of Jennie Eva Hughes [1]",
+          "link": "/items/demo_021.html#demo_022"
+        },
+        "start_date": { 
+          
+          "year": "1899"
+        },
+        "text": {
+          "headline": "Portrait of Jennie Eva Hughes [1]",
+          "text": "Example child object. Black and white portrait of Jennie Eva Hughes."
+        }
+      },{
+        "media": {
+          "url": "https://www.lib.uidaho.edu/blackhistory/objects/small/mg5758_002_sm.jpg",
+          "alt": "black and white full length portrait of an African American woman in a formal white dress with flowers and holding a scroll in her hand",
+          "caption": "Portrait of Jennie Eva Hughes [2]",
+          "link": "/items/demo_021.html#demo_023"
+        },
+        "start_date": { 
+          
+          "year": "1899"
+        },
+        "text": {
+          "headline": "Portrait of Jennie Eva Hughes [2]",
+          "text": "Example child object. Black and white standing portrait of Jennie Eva Hughes dressed in white. Hughes holds a scroll in her left hand."
+        }
+      },{
+        "media": {
+          "url": "https://www.lib.uidaho.edu/blackhistory/objects/small/mg5758_003_sm.jpg",
+          "alt": "\"The Uncrowned King\" by Jennie Eva Hughes",
+          "caption": "\"The Uncrowned King\" by Jennie Eva Hughes",
+          "link": "/items/demo_021.html#demo_024"
+        },
+        "start_date": { 
+          
+          "month": "04",
+          "day": "15",
+          "year": "1898"
+        },
+        "text": {
+          "headline": "\"The Uncrowned King\" by Jennie Eva Hughes",
+          "text": "Example child object. This speech won her the medal oration on April 15, 1898 at University of Idaho."
+        }
+      },{
+        "media": {
+          "url": "https://www.lib.uidaho.edu/blackhistory/objects/small/mg5758_004_sm.jpg",
+          "alt": "aged newspaper clipping of a Spokesman article about Jennie Eva Hughes' oration win",
+          "caption": "Spokesman article about Jennie Eva Hughes' oration win",
+          "link": "/items/demo_021.html#demo_025"
+        },
+        "start_date": { 
+          
+          "year": "1898"
+        },
+        "text": {
+          "headline": "Spokesman article about Jennie Eva Hughes' oration win",
+          "text": "Example child object. Spokesman-Review article about the oratorical event event and Jennie Eva Hughes' win."
+        }
+      },{
+        "media": {
+          "url": "https://www.lib.uidaho.edu/blackhistory/objects/small/pg2_110_1_sm.jpg",
+          "alt": "black and white group portrait of 6 women and 7 men in formal clothing with Jennie Eva Hughes seated in the front row",
+          "caption": "University of Idaho class of 1899",
+          "link": "/items/demo_021.html#demo_026"
+        },
+        "start_date": { 
+          
+          "year": "1898"
+        },
+        "text": {
+          "headline": "University of Idaho class of 1899",
+          "text": "Example child object. Back row (left to right): Fred Merriam, Clara Playfair, Eva Nichols, Clem Herbert, Guy Wolfe, Ava Sweet, Fred Moore. Front row (left to right): Kate Hanley, Maude Mix, Charles Armstrong, Will Stillinger, Jennie Eva Hughes, Gilbert Hogue."
+        }
+      },{
+        "media": {
+          "url": "https://www.lib.uidaho.edu/blackhistory/objects/small/ma2000_29_001_sm.jpg",
+          "alt": "University of Idaho enrollment form filled in with handwritten cursive script saying \"Jennie Eva Hughes, Sept 23, 1898\"",
+          "caption": "Jennie Eva Hughes' 1898 registration card at University of Idaho",
+          "link": "/items/demo_021.html#demo_027"
+        },
+        "start_date": { 
+          
+          "month": "09",
+          "day": "23",
+          "year": "1898"
+        },
+        "text": {
+          "headline": "Jennie Eva Hughes' 1898 registration card at University of Idaho",
+          "text": "Example child object. Jennie Eva Hughes' registration card for 1898 for the University of Idaho."
+        }
+      },{
+        "media": {
+          "url": "https://www.lib.uidaho.edu/blackhistory/objects/small/ma2000_29_002_sm.jpg",
+          "alt": "University of Idaho enrollment form filled in with handwritten cursive script saying \"Jennie Eva Hughes, Feb 15, 1899\"",
+          "caption": "Jennie Eva Hughes' 1899 registration card at University of Idaho",
+          "link": "/items/demo_021.html#demo_028"
+        },
+        "start_date": { 
+          
+          "month": "02",
+          "day": "15",
+          "year": "1899"
+        },
+        "text": {
+          "headline": "Jennie Eva Hughes' 1899 registration card at University of Idaho",
+          "text": "Example child object. Jennie Eva Hughes' registration card for 1899 for the University of Idaho."
+        }
+      },{
+        "media": {
+          "url": "https://www.lib.uidaho.edu/blackhistory/objects/small/arg-1899-06-01_p181-innovation_sm.jpg",
+          "alt": "Innovation of Class Day",
+          "caption": "Innovation of Class Day",
+          "link": "/items/demo_021.html#demo_029"
+        },
+        "start_date": { 
+          
+          "month": "06",
+          "day": "01",
+          "year": "1899"
+        },
+        "text": {
+          "headline": "Innovation of Class Day",
+          "text": "Example child object. Argonaut article about Class Day with mention of the oration given by Jennie Eva Hughes."
+        }
+      },{
+        "media": {
+          "url": "/objects/small/hughes_article_sm.jpg",
+          "alt": "screenshot showing web essay titled \"The First Black Graduate - Jennie Eva Hughes\"",
+          "caption": "The First Black Graduate - Jennie Eva Hughes",
+          "link": "/items/demo_021.html#demo_030"
+        },
+        "start_date": { 
+          
+          "year": "2022"
+        },
+        "text": {
+          "headline": "The First Black Graduate - Jennie Eva Hughes",
+          "text": "Example child object. Article summarizing the history of Jennie Eva Hughes at the Univeritiy of Idaho."
+        }
+      },{
+        "media": {
+          "url": "https://objects.lib.uidaho.edu/archivalidaho/small/archivalidaho1161_sm.jpg",
+          "alt": "black and white photograph depicts uniformed person on a white horse looking up a valley forested by ponderosa pines",
+          "caption": "Mounted forest patrol looks across Middle Fork of Salmon River",
+          "link": "/items/demo_031.html"
+        },
+        "start_date": { 
+          
+          "year": "1937"
+        },
+        "text": {
+          "headline": "Mounted forest patrol looks across Middle Fork of Salmon River",
+          "text": "Mounted forest patrol looks across Middle Fork of Salmon River in the Salmon-Challis National Forest."
+        }
+      },{
+        "media": {
+          "url": "https://objects.lib.uidaho.edu/postcards/small/pg_9_16_01a_sm.jpg",
+          "alt": "Colored post card depicts golden rows of wheat on rolling hills with harvest machine being pushed by large horses",
+          "caption": "Combined harvester, Moscow, Idaho",
+          "link": "/items/demo_032.html"
+        },
+        "start_date": { 
+          
+          "year": "1920"
+        },
+        "text": {
+          "headline": "Combined harvester, Moscow, Idaho",
+          "text": "Postcard of a combine harvesting grain in fields near Moscow, Idaho."
+        }
+      }
+    ]
+}

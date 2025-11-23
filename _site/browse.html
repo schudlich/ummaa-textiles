@@ -1,0 +1,1536 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head prefix="og: http://ogp.me/ns#">
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Browse | CollectionBuilder CSV</title>
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<!--
+
+  _____     ____        __  _           ___       _ __   __       
+ / ___/__  / / /__ ____/ /_(_)__  ___  / _ )__ __(_) /__/ /__ ____
+/ /__/ _ \/ / / -_) __/ __/ / _ \/ _ \/ _  / // / / / _  / -_) __/
+\___/\___/_/_/\__/\__/\__/_/\___/_//_/____/\_,_/_/_/\_,_/\__/_/   
+                                                                
+    built with CollectionBuilder-CSV
+    https://github.com/CollectionBuilder/collectionbuilder-csv
+-->
+<meta name="generator" content="collectionbuilder-csv" />
+<meta http-equiv="Content-Language" content="en-us" >
+
+<!-- load style sheets -->
+<link rel="stylesheet" href="/assets/lib/bootstrap.min.css" type="text/css">
+<!-- load custom css last to allow overrides -->
+<link rel="stylesheet" href="/assets/css/cb.css" type="text/css">
+
+
+<!-- Last build date: 2025-11-22 -->
+  </head>
+  <body class="d-flex flex-column h-100">
+    <div id="skip-to-content"><a href="#maincontent">Skip to main content</a></div>
+    <div class="container">
+    <div class="row align-items-center">
+        <div id="title" class="col-md-9">
+            <h1 class="mt-2"><a class="text-dark" href="/" >CollectionBuilder CSV</a></h1>	 
+            <p>Digital Collection Magic with Static Web Technologies</p>
+        </div>
+        
+        <div class="col-md-3 d-none d-lg-block text-end">
+            <a class="btn btn-outline-light" href="https://cdil.lib.uidaho.edu/">
+                <img class="img-fluid" src="https://www.lib.uidaho.edu/collectionbuilder/cdil-black.png" title="Center for Digital Inquiry and Learning (CDIL)" alt="Center for Digital Inquiry and Learning (CDIL) home" >
+            </a>
+        </div>
+        
+    </div>
+</div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#page-nav" aria-controls="page-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <span class="d-lg-none text-end">
+            <a href="https://cdil.lib.uidaho.edu/">
+                <img class="img-fluid" id="mobile-nav-image" src="https://www.lib.uidaho.edu/collectionbuilder/cdil-white.png" title="Center for Digital Inquiry and Learning (CDIL)" alt="Center for Digital Inquiry and Learning (CDIL) home" >
+            </a>
+        </span>
+        
+        <div class="collapse navbar-collapse" id="page-nav">
+            <ul class="navbar-nav me-auto">
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link active" href="/browse.html">Browse</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/subjects.html">Subjects</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/locations.html">Locations</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/map.html">Map</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/timeline.html">Timeline</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/data.html">Data</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/about.html">About</a>
+                </li></ul>
+            
+            <script>
+    function site_search() {
+        var query = document.getElementById("site-search").value;
+        window.open("/search/index.html?q=" + encodeURIComponent(query), "_self" );
+    }
+</script>
+<form class="form-inline my-2 my-lg-0" role="search" id="search" onsubmit="site_search(); return false;">
+    <div class="input-group">
+        <input id="site-search" class="form-control " type="text" placeholder="Search" aria-label="Search box">
+        <button class="btn btn-light" type="submit">
+            <span id="search-icon"><svg viewBox="0 0 1024 974" height="16px" width="20px"><path d="M960 832L710.875 582.875C746.438 524.812 768 457.156 768 384 768 171.96900000000005 596 0 384 0 171.969 0 0 171.96900000000005 0 384c0 212 171.969 384 384 384 73.156 0 140.812-21.562 198.875-57L832 960c17.5 17.5 46.5 17.375 64 0l64-64C977.5 878.5 977.5 849.5 960 832zM384 640c-141.375 0-256-114.625-256-256s114.625-256 256-256 256 114.625 256 256S525.375 640 384 640z"/></svg></span>
+            <span class="visually-hidden">Search</span>
+        </button>
+    </div>
+</form>
+            
+        </div>
+    </div>
+</nav>
+
+    <main id="maincontent" role="main" class="flex-shrink-0">
+      <div class="container my-4">
+  <div class="row mb-2">
+    <div class="col-7 col-lg-9"><h2 id="browse-items">Browse Items</h2>
+</div>
+    <div class="col-5 col-lg-3 text-end text-lg-start"><button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#advancedSearchModal">
+  Advanced<span class="d-none d-md-inline"> Search</span>
+</button>
+<div class="modal fade" id="advancedSearchModal" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title h4" id="advancedSearchModalLabel">Advanced Search</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form id="advancedSearchForm">
+          <div id="searchRows">
+            <!-- Initial search rows will be inserted here -->
+          </div>
+          <div class="mt-3">
+            <button type="button" class="btn btn-outline-secondary btn-sm" onclick="addSearchRow()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+              </svg>
+              Add Another Field
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="submitAdvancedSearch()">Search</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Template for search row -->
+<template id="searchRowTemplate">
+    <div class="search-row mb-4">
+        <div class="row align-items-center">
+            <div class="col-4 col-md-2">
+                <select class="form-select form-select-sm boolean-operator">
+                    <option value="AND">AND</option>
+                    <option value="OR">OR</option>
+                    <option value="NOT">NOT</option>
+                </select>
+            </div>
+            <div class="col-5 col-md-3">
+                <select class="form-select form-select-sm field-select">
+                    <option value="all">All Fields</option>
+                    <option value="title">Title</option>
+                    
+                    <option value="date">Date</option>
+                    
+                    <option value="description">Description</option>
+                    
+                    <option value="creator">Creator</option>
+                    
+                    <option value="subject">Subject</option>
+                    
+                    <option value="location">Location Depicted</option>
+                    
+                    <option value="identifier">Identifier</option>
+                    
+                </select>
+            </div>
+            <div class="col-10 col-md-6">
+                <input type="text" class="form-control form-control-sm search-input" placeholder="Enter search term">
+                <div class="date-range-inputs">
+                    <div class="date-input-group">
+                        <input type="text" class="form-control form-control-sm start-date" placeholder="Start Date">
+                        <span class="date-separator">to</span>
+                        <input type="text" class="form-control form-control-sm end-date" placeholder="End Date">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 col-md-1">
+                <button type="button" class="btn btn-outline-danger btn-sm remove-row" aria-label="Remove condition">×</button>
+            </div>
+        </div>
+    </div>
+</template>
+</div>
+</div>
+<div class="row mb-3 justify-content-center">
+    <div class="col-lg-8 text-center">
+        <form role="search" id="browseFilter" onsubmit="submitFilter(); return false;">
+            <div class="input-group input-group-lg">
+                
+                <select class="form-control form-select d-none d-lg-block" id="fieldSelect" style="max-width: 200px;" aria-label="select search field to filter">
+                    <option value="all">All Fields</option>
+                    <option value="title">Title</option>
+                    
+                    
+                    <option value="date">Date</option>
+                    
+                    
+                    <option value="description">Description</option>
+                    
+                    
+                    <option value="creator">Creator</option>
+                    
+                    
+                    <option value="subject">Subject</option>
+                    
+                    
+                    <option value="location">Location Depicted</option>
+                    
+                    
+                    <option value="identifier">Identifier</option>
+                    
+                    <option value="display_template">Content Type</option>
+                    
+                    <option value="" disabled>─────────────</option>
+                    <option value="advanced">Advanced Search...</option>
+                </select>
+                <!-- Mobile filter button - shows only on small screens -->
+                <div class="dropdown d-lg-none">
+                    <button class="py-3 btn btn-outline-secondary" type="button" id="mobileFilterButton" data-bs-toggle="dropdown" aria-expanded="false" title="Filter options">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-funnel" viewBox="0 0 16 16">
+                            <path d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2h-11z"/>
+                        </svg>
+                        <span id="selectedField" class="d-none d-sm-inline ms-1">All Fields</span>
+                    </button>
+                    <div class="dropdown-menu">
+                        <button class="dropdown-item" type="button" data-field="all">All Fields</button>
+                        <button class="dropdown-item" type="button" data-field="title">Title</button>
+                        
+                        
+                        <button class="dropdown-item" type="button" data-field="date">Date</button>
+                        
+                        
+                        <button class="dropdown-item" type="button" data-field="description">Description</button>
+                        
+                        
+                        <button class="dropdown-item" type="button" data-field="creator">Creator</button>
+                        
+                        
+                        <button class="dropdown-item" type="button" data-field="subject">Subject</button>
+                        
+                        
+                        <button class="dropdown-item" type="button" data-field="location">Location Depicted</button>
+                        
+                        
+                        <button class="dropdown-item" type="button" data-field="identifier">Identifier</button>
+                        
+                        <button class="dropdown-item" type="button" data-field="display_template">Content Type</button>
+                        
+                        <div class="dropdown-divider"></div>
+                        <button class="dropdown-item" type="button" data-field="advanced">Advanced Search...</button>
+                        
+                    </div>
+                </div>
+                <input type="text" class="form-control" id="filterTextBox" placeholder="Filter ... " aria-label="Search"> 
+                <!-- Update the date range inputs section -->
+                <div id="dateRangeInputs" class="date-range-inputs">
+                    <div class="date-input-group">
+                        <input type="text" id="startDate" class="ms-2 form-control" placeholder="Start Date">
+                        <span class="date-separator">to</span>
+                        <input type="text" id="endDate" class="me-2 form-control" placeholder="End Date">
+                    </div>
+                </div>
+                <button class="btn btn-success" type="submit" title="Filter items" id="filterButton" >Search</button>
+                <button class="btn btn-outline-secondary filter d-none d-lg-flex" onclick="resetFilter(); return false;" data-filter="">Reset</button>
+            </div>
+        </form>
+        <!-- Active filter indicators -->
+        <div id="activeFilters" class="mt-2 text-start"></div>
+        <div class="h2" id="numberOf"></div>
+    </div>
+    <div class="col-lg-2">
+        <div class="dropdown">
+            <button class="btn btn-secondary mt-1 dropdown-toggle" type="button" id="browseSortButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Sort by <span id="sortFilter">Random</span>
+            </button>
+            <div class="dropdown-menu browse-sort-menu" aria-labelledby="browseSortButton">
+                <button class="dropdown-item browse-sort-item " data-filter="random">Random</button>
+                <button class="dropdown-item browse-sort-item" data-filter="title">Title</button>
+                
+                
+                <button class="dropdown-item browse-sort-item" data-filter="date">Date Created</button>
+                
+                <button class="dropdown-item browse-sort-item" data-filter="identifier">Identifier</button>
+                
+            </div>
+            <button class="btn btn-outline-secondary filter p-1 d-lg-none float-end" onclick="resetFilter(); return false;" data-filter="">Reset</button>
+        </div>
+       
+    </div>
+</div>
+
+<div id="loadingIcon" class="text-center">
+    <div class="spinner-border text-dark" role="status"><span class="visually-hidden">Loading...</span></div>
+</div>
+
+<div class="row" id="browseItems"></div>
+
+</div>
+    </main>
+    <footer class="bg-dark pt-4 mt-auto container-fluid">
+
+    <div class="row border-bottom border-white pb-4 mb-2">
+
+        <div class="col-md-7 px-4 mt-3">
+
+            <h2 class="h4"><a href="/" class="text-white">CollectionBuilder CSV</a></h2>
+            <p class="text-white"><small>CollectionBuilder-CSV is a template for creating digital collection exhibits using static web technology.</small></p>
+            <nav>
+                <ul id="footer-nav" class="nav nav-pills ">
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light active" href="/browse.html">Browse</a>
+                    </li>
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light" href="/subjects.html">Subjects</a>
+                    </li>
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light" href="/locations.html">Locations</a>
+                    </li>
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light" href="/map.html">Map</a>
+                    </li>
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light" href="/timeline.html">Timeline</a>
+                    </li>
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light" href="/data.html">Data</a>
+                    </li>
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light" href="/about.html">About</a>
+                    </li></ul>
+            </nav>
+
+        </div>
+
+        <div class="col-md-5 mt-3 text-center">
+
+            <p class="text-md-end">
+                <a href="https://cdil.lib.uidaho.edu/">
+                    <img id="footer-logo" class="img-fluid" src="https://www.lib.uidaho.edu/collectionbuilder/cdil-white.png" alt="Center for Digital Inquiry and Learning (CDIL) home">
+                </a>
+            </p>
+            
+            <p class="text-white text-md-end" id="footer-credits">
+                <small><em>built with</em>
+                    <a href="https://collectionbuilder.github.io/" title="CollectionBuilder">
+                        <img src="/assets/img/collectionbuilder-logo.png" class="img-fluid" alt="CollectionBuilder" >
+                    </a>
+                </small>
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="col-md-12 text-center pt-3 pb-1">
+        <p class="text-white">Last updated 2025</p>
+    </div>
+
+</footer>
+    <!-- Bootstrap bundle JS -->
+<script src="/assets/lib/bootstrap.bundle.min.js"></script>
+<!-- load other js -->
+<script src="/assets/lib/lazysizes.min.js" async></script>
+
+
+<script>
+/**
+ * BROWSE PAGE JAVASCRIPT - Less Janky Version
+ * 
+ * Handles collection browsing with search, filtering, sorting, and URL state management.
+ * Supports both simple hash-based searches and advanced parameter-based searches.
+ */
+
+// =============================================================================
+// INITIALIZATION & DATA SETUP
+// =============================================================================
+
+/**
+ * Initialize items array from Jekyll site data
+ */
+var items = [
+    
+    { "date":"1910","description":"Example locally hosted image item. Photographic postcard of the University of Idaho administration building in Moscow, Idaho.","creator":"Pacific Photo Co.","subject":"universities; buildings; campuses; picture postcards","location":"Moscow, Idaho","identifier":"pg_9_12_01bl","img": "/objects/thumbs/demo_001_th.jpg","display_template": "image","format": "image/jpeg","alt": "historic sepia photograph depicting a formal brick and stone building in the College Gothic style","title":"Administration Building, University of Idaho, No. 30",
+        "id":"demo_001" },
+    { "date":"1912-09-08","description":"Example locally hosted PDF item. Postcard is of the Spokane County Courthouse in Spokane, Washington. Postmark 9/8/1912, Spokane, WA. Destination San Francisco, CA.","creator":"Spokane Post Card Co.","subject":"public buildings; county courthouses; trees; picture postcards","location":"Spokane, Washington","identifier":"Postcard_032","img": "/objects/thumbs/demo_002_th.jpg","display_template": "pdf","format": "application/pdf","alt": "historic colorized postcard depicting a formal building with a large central tower in the French Renaissance revival style","title":"Spokane County Court House, Spokane, Washington",
+        "id":"demo_002" },
+    { "date":"1947","description":"Example locally hosted audio item. A short excerpt from a Psychiana radio program episode that begins with assurance that there is a Power that can get people what they desire. Robinson then discusses his early life failures and childhood seeking of some force that could turn his failures into success. He asserts the God-Power can turn our failures into success and bring us material and spiritual abundance.","creator":"Robinson, Frank B.","subject":"Frank B. Robinson; Failure; Success; Material Abundance","location":"Moscow, Idaho","identifier":"Good_News_08","img": "/objects/thumbs/demo_003_th.jpg","display_template": "audio","format": "audio/mp3","alt": "portrait of a man in a suit, with the text &#39;the amazing story of Psychiana&#39; below","title":"Good News – Power (Radio Episode Excerpt)",
+        "id":"demo_003" },
+    { "date":"1925-10-30","description":"Example YouTube video item. Idaho Football vs. University of Southern California 10/30/1925 at Neale Stadium in Moscow, ID. Score: 7 - 51 (L). Silent film footage.","creator":"Vandal Athletics","subject":"American Football","location":"Moscow, Idaho","identifier":"MG 23, Item 29","img": "https://img.youtube.com/vi/CVXQ3X6Q8oU/mqdefault.jpg","display_template": "video","format": "video/mp4","alt": "grainy image from historic film depicting fans heading to football game","title":"University of Idaho vs. University of Southern California (Football), 10/30/1925",
+        "id":"demo_004" },
+    { "date":"2014-06-16","description":"Example Vimeo video item. Oral history interview with poet K. Silem Mohammad discussing recent changes in writing practices that occurred due to the advent of the computer and the arrival of the digital age.","creator":"Becker, Devin","subject":"Poetry","location":"Ashland, OR","display_template": "video","format": "video/mp4","title":"Interview with K. Silem Mohammad",
+        "id":"demo_005" },
+    { "date":"1932-09-01","description":"Example image item externally hosted. Ford pumper used for slash burning control. September 1932. From the photo series depicting the broadcast burn at the mouth of Benton Creek.","creator":"Thompson, J. B.","subject":"forestry","location":"Bonner County;Priest River Experimental Forest;Benton Creek","identifier":"FirePump1","img": "https://www.lib.uidaho.edu/collectionbuilder/demo-objects/thumbs/demo_006_th.jpg","display_template": "image","format": "image/jpeg","alt": "man standing with pump machinery next to a river with trees and mountains in the distance","title":"Ford pumper used for slash burning control",
+        "id":"demo_006" },
+    { "date":"2003","description":"Example metadata-only record with link to external source. Journal article.","creator":"Reischel, T.S.; Bjornn, T.C.","subject":"fisheries management","location":"Bonneville Dam","identifier":"DOI:10.1577/M02-113","display_template": "record","format": "application/pdf","title":"Influence of Fishway Placement on Fallback of Adult Salmon at the Bonneville Dam on the Columbia River",
+        "id":"demo_007" },
+    { "description":"Example compound object. Hells Half Acre is an R-6 cabin that is easily accessible by road in the Selway-Bitterroot Wilderness. Originally a platform on top of a forty-foot-tall tower, the original Hell's Half Acre cabin was an L-4.  Now one of the most popular lookouts in Idaho or Montana, it sits above a snag forest of mostly lodgepole pine. A sign at the base of the summit informs drivers that the tower opens at 9 am. Unsure if this refers to mountain or pacific time, we wait at the sign and drink our coffee.","creator":"Keeping Watch","img": "https://cdil.lib.uidaho.edu/keeping-watch/objects/thumbs/outside_shot_hells_half_th.jpg","display_template": "compound_object","format": "compound_object","alt": "fire lookout tower with a flag pole and American flag","title":"Hell&#39;s Half Acre",
+        "id":"demo_008" },
+    { "description":"Example multiple. A cross section of a peeled tree from the Payette National Forest. The inner bark was utilized as a food resource by Indigenous Tribe.","subject":"Peeled Tree; Payette National Forest; Indigenous Tribe","img": "https://objects.lib.uidaho.edu/collectionbuilder/demo/thumbs/dsc_0136_th.jpg","display_template": "multiple","format": "image/jpeg","alt": "log cross section showing tree rings and one side of tree bark peeled","title":"Peeled Tree",
+        "id":"demo_013" },
+    { "date":"2021-07-13","description":"Example panorama. 360 Image of the Interior of Hell's Half Acre Fire Tower","creator":"Keeping Watch","location":"Hell's Half Acre","img": "https://cdil.lib.uidaho.edu/keeping-watch/objects/thumbs/hells_half_theta_th.jpg","display_template": "panorama","format": "image/jpeg","alt": "interior of a fire lookout tower with map in center and windows in all directions","title":"Hell&#39;s Half Acre Lookout 360 Image",
+        "id":"demo_017" },
+    { "date":"1909","description":"Example postcard using display template 'multiple.' Postcard is of the Davenport Hotel's Restaurant in Spokane, Washington.","creator":"Mitchell, Edward H.","subject":"restaurants; automobiles; buildings; picture postcards; flagpoles; flags","location":"Spokane, WA","identifier":"Postcard_038","img": "/objects/thumbs/210a_th.jpg","display_template": "multiple","format": "multiple","alt": "historic colorized postcard depicting a fancy multi-story white building with several early cars parked in front","title":"Spokane&#39;s Great Restaurant, Washington",
+        "id":"demo_018" },
+    { "date":"1899","description":"Example compound object. Items from the Black History at University of Idaho that feature Jennie Eva Hughes, the first black graduate of the University of Idaho","subject":"Jennie Eva Hughes; Black History; University of Idaho","location":"Moscow, ID","img": "https://www.lib.uidaho.edu/blackhistory/objects/thumbs/ma2000_29_001_th.jpg","display_template": "compound_object","format": "compound_object","alt": "University of Idaho enrollment form filled in with handwritten cursive script saying &quot;Jennie Eva Hughes, Sept 23, 1898&quot;","title":"Jennie Eva Hughes, the First Black Graduate of the University of Idaho",
+        "id":"demo_021" },
+    { "date":"1937","description":"Mounted forest patrol looks across Middle Fork of Salmon River in the Salmon-Challis National Forest.","creator":"Benedict, M.S.","subject":"national forests; horses; rivers; riders; rangers; patrol; campsite; camp fire","location":"Salmon-Challis National Forest, Idaho","identifier":"IntermtnPics97","img": "https://objects.lib.uidaho.edu/archivalidaho/thumbs/archivalidaho1161_th.jpg","display_template": "image","format": "image/jpeg","alt": "black and white photograph depicts uniformed person on a white horse looking up a valley forested by ponderosa pines","title":"Mounted forest patrol looks across Middle Fork of Salmon River",
+        "id":"demo_031" },
+    { "date":"1920","description":"Postcard of a combine harvesting grain in fields near Moscow, Idaho.","creator":"Inland Printing Co.","subject":"combines; fields (land); Equus caballus (species); men; picture postcards","location":"Moscow, Idaho","identifier":"pg_9_16_01a","img": "https://objects.lib.uidaho.edu/postcards/thumbs/pg_9_16_01a_th.jpg","display_template": "multiple","format": "image/jpeg","alt": "Colored post card depicts golden rows of wheat on rolling hills with harvest machine being pushed by large horses","title":"Combined harvester, Moscow, Idaho",
+        "id":"demo_032" }];
+
+// Valid field names for URL-based searches
+const validFields = ["date","description","creator","subject","location","identifier","title","display_template"];
+
+// Date field names - add your date fields here
+const dateFields = ['date', 'created', 'published', 'modified', 'issued', 'date_created', 'date_published'];
+
+// Cache DOM elements
+var loadingIcon, filterTextBox, browseItemsDiv;
+
+/* 
+    get a theme icon based on display_template or format 
+    return svg sprite
+*/
+function getIcon(objectTemplate,objectFormat,svgType) {
+    var iconTemplate, iconId, iconTitle;
+    if (objectTemplate && objectTemplate != "") {
+        iconTemplate = objectTemplate;
+    } else if (objectFormat && objectFormat != "") {
+        iconTemplate = objectFormat;
+    } else {
+        iconTemplate = ""
+    }
+    // choose icon
+    if (iconTemplate.includes("image")) {
+        iconId = "icon-image";
+        iconTitle = "image file icon";
+    } else if (iconTemplate.includes("pdf")) {
+        iconId = "icon-pdf";
+        iconTitle = "pdf file icon";
+    } else if (iconTemplate.includes("video")) {
+        iconId = "icon-video";
+        iconTitle = "video file icon";
+    } else if (iconTemplate.includes("audio")) {
+        iconId = "icon-audio";
+        iconTitle = "audio file icon";
+    } else if (iconTemplate.includes("panorama")) {
+        iconId = "icon-panorama";
+        iconTitle = "panorama file icon";
+    } else if (iconTemplate.includes("compound")) {
+        iconId = "icon-compound-object";
+        iconTitle = "compound object icon";
+    } else if (iconTemplate.includes("multiple")) {
+        iconId = "icon-multiple";
+        iconTitle = "multiple object icon";
+    } else if (iconTemplate.includes("record")) {
+        iconId = "icon-record";
+        iconTitle = "record object icon";
+    } else {
+        iconId = "icon-default";
+        iconTitle = "file icon";
+    }
+    if (svgType == "thumb") {
+        // svg sprite as thumb
+        return '<svg class="bi text-body img-fluid" fill="currentColor" role="img"><title>' + iconTitle + '</title><use xlink:href="/assets/css/cb-icons.svg#' + iconId + '"/></svg>';
+    } else if (svgType == "hidden") {
+        // svg as sprite with aria-hidden
+        return '<svg class="bi icon-sprite" aria-hidden="true"><use xlink:href="/assets/css/cb-icons.svg#' + iconId + '"/></svg>';
+    } else {
+        // svg as sprite
+        return '<svg class="bi icon-sprite" aria-label="' + iconTitle + '"><use xlink:href="/assets/css/cb-icons.svg#' + iconId + '"/></svg>';
+    }
+}
+
+
+// =============================================================================
+// CARD GENERATION
+// =============================================================================
+
+/**
+ * Creates HTML card for displaying a collection item
+ */
+function makeCard(obj) {
+    const placeholder = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E";
+    const itemHref = `/items/${ obj.parent ? obj.parent + ".html#" + obj.id : obj.id + ".html"}`;
+    
+    let card = '<div class="item col-lg-4 col-md-6 mb-2"><div class="card">';
+    
+    // Image or icon
+    if(obj.img) {
+        card += `<a href="${itemHref}"><img class="card-img-top lazyload" src="${placeholder}" data-src="${obj.img}" alt="${obj.alt || obj.title}"></a>`;
+    }
+    
+    // Title
+    card += `<div class="card-body text-center"><h3 class="card-title h4"><a href="${itemHref}" class="text-dark">${obj.title}</a></h3>`;
+    
+    // Icon for items without images
+    if(!obj.img) {
+        const thumbIcon = getIcon(obj.display_template, obj.format, "thumb");
+        if(thumbIcon) card += `<p><a href="${itemHref}">${thumbIcon}</a></p>`;
+    }
+    
+    // Field data
+    card += '<p class="card-text">';
+    
+    if(obj["date"]){
+        card += '<strong>Date:</strong> ';
+        
+        card += obj["date"];
+        
+        card += '<br>';
+    }
+    
+    if(obj["creator"]){
+        card += '<strong>Creator:</strong> ';
+        
+        card += obj["creator"];
+        
+        card += '<br>';
+    }
+    
+    if(obj["subject"]){
+        
+        
+        const btns = obj["subject"].split(";");
+        btns.forEach(btn => {
+            if(btn.trim()) {
+                card += `<a class="btn btn-sm btn-secondary m-1 text-wrap" href="/browse.html#subject:${encodeURIComponent(btn.trim())}">${btn.trim()}</a>`;
+            }
+        });
+        
+        card += '<br>';
+    }
+    
+    if(obj["location"]){
+        
+        
+        const btns = obj["location"].split(";");
+        btns.forEach(btn => {
+            if(btn.trim()) {
+                card += `<a class="btn btn-sm btn-secondary m-1 text-wrap" href="/browse.html#location:${encodeURIComponent(btn.trim())}">${btn.trim()}</a>`;
+            }
+        });
+        
+        card += '<br>';
+    }
+    
+    card += '</p>';
+    
+    // Media type badge
+    if(obj.display_template) {
+        const mediaIcon = getIcon(obj.display_template, obj.format, "hidden");
+        card += `<p class="card-text"><small><a class="btn btn-sm btn-outline-secondary" href="/browse.html#display_template:${encodeURIComponent(obj.display_template)}">${obj.display_template.toUpperCase().replace("_"," ")} ${mediaIcon}</a></small></p>`;
+    }
+    
+    card += `<hr><a href="${itemHref}" class="btn btn-sm btn-light" title="link to ${obj.title}">View Full Record</a></div></div></div>`;
+    return card;
+}
+
+// =============================================================================
+// DATE UTILITIES
+// =============================================================================
+
+/**
+ * Check if a field name represents a date field
+ */
+function isDateField(fieldName) {
+    return dateFields.includes(fieldName.toLowerCase());
+}
+
+/**
+ * Normalize date string to consistent format for comparison
+ * Handles: yyyy, yyyy-mm, yyyy-mm-dd, mm/dd/yyyy
+ */
+function normalizeDateString(dateStr) {
+    if (!dateStr) return null;
+    
+    const cleaned = dateStr.trim();
+    
+    // Year only (4 digits)
+    if (/^\d{4}$/.test(cleaned)) {
+        return { normalized: cleaned, type: 'year', year: parseInt(cleaned) };
+    }
+
+    // Year-Month format yyyy-mm
+    const yearMonthMatch = cleaned.match(/^(\d{4})-(\d{1,2})$/);
+    if (yearMonthMatch) {
+        const [, year, month] = yearMonthMatch;
+        return {
+            normalized: `${year}-${month.padStart(2, '0')}`,
+            type: 'year-month',
+            year: parseInt(year),
+            month: parseInt(month)
+        };
+    }
+
+    // ISO format yyyy-mm-dd
+    const isoMatch = cleaned.match(/^(\d{4})-(\d{1,2})-(\d{1,2})$/);
+    if (isoMatch) {
+        const [, year, month, day] = isoMatch;
+        return {
+            normalized: `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}`,
+            type: 'full',
+            year: parseInt(year),
+            month: parseInt(month),
+            day: parseInt(day)
+        };
+    }
+    
+    // US format mm/dd/yyyy
+    const usMatch = cleaned.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
+    if (usMatch) {
+        const [, month, day, year] = usMatch;
+        return {
+            normalized: `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}`,
+            type: 'full',
+            year: parseInt(year),
+            month: parseInt(month),
+            day: parseInt(day)
+        };
+    }
+    
+    return null;
+}
+
+/**
+ * Check if a date falls within a range (handles partial dates)
+ */
+function isDateInRange(itemDate, startDate, endDate) {
+    const itemDateObj = normalizeDateString(itemDate);
+    if (!itemDateObj) return false;
+    
+    const startDateObj = startDate ? normalizeDateString(startDate) : null;
+    const endDateObj = endDate ? normalizeDateString(endDate) : null;
+    
+    // Year-only comparison
+    if (itemDateObj.type === 'year') {
+        let inRange = true;
+        if (startDateObj) inRange = inRange && itemDateObj.year >= startDateObj.year;
+        if (endDateObj) inRange = inRange && itemDateObj.year <= endDateObj.year;
+        return inRange;
+    }
+    
+    // Year-Month comparison
+    if (itemDateObj.type === 'year-month') {
+        let inRange = true;
+        
+        if (startDateObj) {
+            // Convert start date to year-month format for comparison
+            let startNormalized;
+            if (startDateObj.type === 'year') {
+                startNormalized = `${startDateObj.year}-01`;
+            } else if (startDateObj.type === 'year-month') {
+                startNormalized = startDateObj.normalized;
+            } else {
+                startNormalized = startDateObj.normalized.substring(0, 7); // Extract yyyy-mm from yyyy-mm-dd
+            }
+            inRange = inRange && itemDateObj.normalized >= startNormalized;
+        }
+        
+        if (endDateObj) {
+            // Convert end date to year-month format for comparison
+            let endNormalized;
+            if (endDateObj.type === 'year') {
+                endNormalized = `${endDateObj.year}-12`;
+            } else if (endDateObj.type === 'year-month') {
+                endNormalized = endDateObj.normalized;
+            } else {
+                endNormalized = endDateObj.normalized.substring(0, 7); // Extract yyyy-mm from yyyy-mm-dd
+            }
+            inRange = inRange && itemDateObj.normalized <= endNormalized;
+        }
+        
+        return inRange;
+    }
+    
+    // Full date comparison
+    if (itemDateObj.type === 'full') {
+        let inRange = true;
+        if (startDateObj) {
+            let startNormalized;
+            if (startDateObj.type === 'year') {
+                startNormalized = `${startDateObj.year}-01-01`;
+            } else if (startDateObj.type === 'year-month') {
+                startNormalized = `${startDateObj.normalized}-01`;
+            } else {
+                startNormalized = startDateObj.normalized;
+            }
+            inRange = inRange && itemDateObj.normalized >= startNormalized;
+        }
+        if (endDateObj) {
+            let endNormalized;
+            if (endDateObj.type === 'year') {
+                endNormalized = `${endDateObj.year}-12-31`;
+            } else if (endDateObj.type === 'year-month') {
+                // Get last day of the month
+                const year = endDateObj.year;
+                const month = endDateObj.month;
+                const lastDay = new Date(year, month, 0).getDate();
+                endNormalized = `${endDateObj.normalized}-${lastDay.toString().padStart(2, '0')}`;
+            } else {
+                endNormalized = endDateObj.normalized;
+            }
+            inRange = inRange && itemDateObj.normalized <= endNormalized;
+        }
+        return inRange;
+    }
+    
+    return false;
+}
+
+// =============================================================================
+// SEARCH & FILTER FUNCTIONS
+// =============================================================================
+
+/**
+ * Check if item matches search criteria (handles semicolon-separated values)
+ */
+function itemMatches(item, field, query, startDate, endDate) {
+    // Date field search
+    if (isDateField(field) && (startDate || endDate)) {
+        if (!item[field]) return false;
+        const fieldValues = item[field].toString().split(";");
+        return fieldValues.some(value => isDateInRange(value.trim(), startDate, endDate));
+    }
+    
+    // Text search
+    if (query && query !== "") {
+        const q = query.trim().toUpperCase();
+        
+        // Search all fields 
+        if (field === "all") {
+            for (let k in item) {
+                if (k !== "img" && item[k] && item[k].toString().toUpperCase().includes(q)) {
+                    return true;
+                }
+            }
+            return false;
+        }
+        
+        // Search specific field
+        if (item[field]) {
+            const fieldValues = item[field].toString().split(";");
+            return fieldValues.some(value => value.trim().toUpperCase().includes(q));
+        }
+    }
+    
+    return false;
+}
+
+/**
+ * Basic filter - searches single field with single query
+ */
+function filterItems(arr, query, field = "all", startDate = "", endDate = "") {
+    loadingIcon.classList.remove("d-none");
+    
+    let filteredItems = arr;
+    
+    // Apply filter if we have search criteria
+    if (query || startDate || endDate) {
+        filteredItems = arr.filter(item => itemMatches(item, field, query, startDate, endDate));
+    }
+    
+    updateDisplay(filteredItems, query, field, startDate, endDate);
+    loadingIcon.classList.add("d-none");
+}
+
+/**
+ * Advanced filter - handles multiple search criteria with boolean logic
+ */
+function advancedFilterItems(arr, searchCriteria) {
+    loadingIcon.classList.remove("d-none");
+    
+    const filteredItems = arr.filter(item => {
+        if (!searchCriteria?.length) return true;
+        
+        let result = true;
+        
+        for (let i = 0; i < searchCriteria.length; i++) {
+            const {boolean, field, value, startDate, endDate} = searchCriteria[i];
+            
+            // Skip empty criteria
+            if (!value && !startDate && !endDate) continue;
+            
+            const matches = itemMatches(item, field, value, startDate, endDate);
+            
+            // Apply boolean logic
+            switch(boolean) {
+                case 'OR':  result = result || matches; break;
+                case 'NOT': result = result && !matches; break;
+                default:    result = result && matches; break; // AND or first item
+            }
+        }
+        
+        return result;
+    });
+    
+    updateDisplay(filteredItems);
+    displayActiveFilters(searchCriteria);
+    loadingIcon.classList.add("d-none");
+}
+
+/**
+ * Update the display with filtered results
+ */
+function updateDisplay(filteredItems, query = "", field = "", startDate = "", endDate = "") {
+    // Use DocumentFragment for better performance when adding many cards
+    const fragment = document.createDocumentFragment();
+    const tempDiv = document.createElement('div');
+    
+    // Generate all cards at once
+    const cardsHTML = filteredItems.map(item => makeCard(item)).join('');
+    tempDiv.innerHTML = cardsHTML;
+    
+    // Move all cards to fragment
+    while (tempDiv.firstChild) {
+        fragment.appendChild(tempDiv.firstChild);
+    }
+    
+    // Single DOM update
+    browseItemsDiv.innerHTML = '';
+    browseItemsDiv.appendChild(fragment);
+    
+    // Update count
+    document.querySelector("#numberOf").innerHTML = `${filteredItems.length} of 14 items`;
+    
+    // Focus active input (only if needed)
+    if (query || startDate || endDate) {
+        const activeInput = document.querySelector('#filterTextBox:not([style*="display: none"]), #startDate, #endDate');
+        if (activeInput && document.activeElement !== activeInput) {
+            activeInput.focus();
+        }
+    }
+    
+    // Show filter indicators for basic search
+    if (query || startDate || endDate) {
+        const searchCriteria = [{
+            boolean: 'AND',
+            field: field,
+            value: isDateField(field) ? `${startDate || ''} - ${endDate || ''}`.trim().replace(/^-\s*|-\s*$/g, '') : query,
+            startDate: startDate,
+            endDate: endDate
+        }];
+        displayActiveFilters(searchCriteria);
+    } else if (arguments.length <= 1) { // Only clear if not called from advancedFilterItems
+        displayActiveFilters([]);
+    }
+}
+
+// =============================================================================
+// UI INTERACTION HANDLERS
+// =============================================================================
+
+/**
+ * Toggle between text and date inputs based on field selection
+ */
+function toggleDateInputs(fieldName, container) {
+    const textInput = container.querySelector('.search-input, #filterTextBox');
+    const dateInputs = container.querySelector('.date-range-inputs, #dateRangeInputs');
+    
+    if (!textInput || !dateInputs) return;
+    
+    if (isDateField(fieldName)) {
+        textInput.style.display = 'none';
+        dateInputs.style.display = 'block';
+        dateInputs.classList.add('active');
+    } else {
+        textInput.style.display = 'block';
+        dateInputs.style.display = 'none';
+        dateInputs.classList.remove('active');
+    }
+}
+
+/**
+ * Handle basic search form submission
+ */
+function submitFilter() {
+    const query = filterTextBox.value;
+    const fieldSelect = document.querySelector("#fieldSelect");
+    const field = fieldSelect ? fieldSelect.value : "all";
+    
+    if (isDateField(field)) {
+        const startDate = document.querySelector("#startDate").value;
+        const endDate = document.querySelector("#endDate").value;
+        
+        if (!startDate && !endDate) return false;
+        
+        // Use URL parameters for date searches
+        const params = new URLSearchParams();
+        params.set('f0', field);
+        params.set('b0', 'AND');
+        if (startDate) params.set('start0', startDate);
+        if (endDate) params.set('end0', endDate);
+        params.set('v0', `${startDate || ''} - ${endDate || ''}`.trim().replace(/^-\s*|-\s*$/g, ''));
+        
+        window.location = window.location.pathname + "?" + params.toString();
+    } else {
+        // Use hash for text searches
+        const hash = field === "all" ? query : `${field}:${query}`;
+        window.location.hash = encodeURIComponent(hash);
+    }
+    return false;
+}
+
+/**
+ * Reset all filters and return to base URL
+ */
+function resetFilter() {
+    // Clear UI
+    filterTextBox.value = "";
+    document.querySelector("#fieldSelect").value = "all";
+    
+    // Clear URL completely
+    if (window.location.hash || window.location.search) {
+        window.location = window.location.pathname;
+        return false;
+    }
+    
+    // Reset advanced search form
+    const searchRows = document.getElementById('searchRows');
+    if (searchRows) {
+        searchRows.innerHTML = '';
+        for (let i = 0; i < 3; i++) addSearchRow();
+    }
+    
+    filterItems(items, "", "all");
+    displayActiveFilters([]);
+    return false;
+}
+
+// =============================================================================
+// URL STATE MANAGEMENT
+// =============================================================================
+
+/**
+ * Handle hash-based searches (simple searches and facet links)
+ */
+function handleHashChange() {
+    const hash = decodeURIComponent(location.hash.substr(1));
+    
+    // ignore back to top hash
+    if (hash == 'maincontent') return;
+    // Don't interfere with parameter-based searches
+    if (!hash && window.location.search) return;
+    
+    // Clear parameters if using hash
+    if (hash && window.location.search) {
+        window.location = window.location.pathname + "#" + hash;
+        return;
+    }
+    
+    // No hash - show all items
+    if (!hash) {
+        filterTextBox.value = "";
+        document.querySelector("#fieldSelect").value = "all";
+        filterItems(items, "", "all");
+        updateAdvancedSearchModal([]);
+        return;
+    }
+    
+    // Parse field:query format
+    let field = 'all';
+    let query = hash;
+
+    if (hash.includes(":")) {
+        const [potentialField, hashQuery] = hash.split(":");
+        if (validFields.includes(potentialField)) {
+            field = potentialField;
+            query = hashQuery;
+        } else {
+            // Invalid field - search everything with just the query part
+            field = 'all';
+            query = hashQuery; // Use only the part after the colon, not the full hash
+        }
+    }
+    
+    // Update UI and filter
+    filterTextBox.value = query;
+    
+    document.querySelector("#fieldSelect").value = field;
+    filterItems(items, query, field);
+    
+    // Update advanced search modal
+    if (query) {
+        updateAdvancedSearchModal([{boolean: 'AND', field: field, value: query}], true);
+    }
+}
+
+// =============================================================================
+// ADVANCED SEARCH MODAL
+// =============================================================================
+
+/**
+ * Update advanced search modal to reflect current search state
+ */
+function updateAdvancedSearchModal(searchCriteria, forceUpdate = false) {
+    const searchRows = document.getElementById('searchRows');
+    if (!searchRows) return;
+    
+    // Add default empty rows if no criteria
+    if (!searchCriteria.length && searchRows.children.length === 0) {
+        for (let i = 0; i < 3; i++) addSearchRow();
+        return;
+    }
+    
+    // Rebuild rows from criteria
+    if (searchCriteria.length && (searchRows.children.length === 0 || forceUpdate)) {
+        searchRows.innerHTML = '';
+        searchCriteria.forEach(criteria => addSearchRow(criteria));
+        addSearchRow(); // Extra empty row
+    }
+}
+
+/**
+ * Add a search row to the advanced search modal
+ */
+function addSearchRow(values = {}) {
+    const template = document.getElementById('searchRowTemplate');
+    const searchRows = document.getElementById('searchRows');
+    const newRow = template.content.cloneNode(true);
+    const row = newRow.querySelector('.search-row');
+    
+    // Set initial values
+    if (values.boolean) row.querySelector('.boolean-operator').value = values.boolean;
+    if (values.field) {
+        row.querySelector('.field-select').value = values.field;
+        toggleDateInputs(values.field, row);
+    }
+    if (values.value && !isDateField(values.field)) {
+        row.querySelector('.search-input').value = values.value;
+    }
+    if (values.startDate) {
+        const startInput = row.querySelector('.start-date');
+        if (startInput) startInput.value = values.startDate;
+    }
+    if (values.endDate) {
+        const endInput = row.querySelector('.end-date');
+        if (endInput) endInput.value = values.endDate;
+    }
+    
+    // Hide boolean operator for first row
+    if (searchRows.children.length === 0) {
+        row.querySelector('.boolean-operator').style.visibility = 'hidden';
+    }
+    
+    // Event handlers
+    row.querySelector('.field-select').addEventListener('change', e => toggleDateInputs(e.target.value, row));
+    row.querySelector('.remove-row').addEventListener('click', () => {
+        row.remove();
+        if (searchRows.children.length === 1) {
+            searchRows.querySelector('.boolean-operator').style.visibility = 'hidden';
+        }
+    });
+    
+    // Enter key handlers
+    ['.search-input', '.start-date', '.end-date'].forEach(selector => {
+        const input = row.querySelector(selector);
+        if (input) {
+            input.addEventListener('keypress', e => {
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    submitAdvancedSearch();
+                }
+            });
+        }
+    });
+    
+    searchRows.appendChild(row);
+}
+
+/**
+ * Submit advanced search form
+ */
+function submitAdvancedSearch(event) {
+    if (event?.preventDefault) event.preventDefault();
+    
+    const form = document.getElementById('advancedSearchForm');
+    const rows = form.querySelectorAll('.search-row');
+    const params = new URLSearchParams();
+    
+    // Build parameters from form rows
+    rows.forEach((row, index) => {
+        const boolean = index === 0 ? 'AND' : row.querySelector('.boolean-operator').value;
+        const field = row.querySelector('.field-select').value;
+        
+        if (isDateField(field)) {
+            const startDate = row.querySelector('.start-date').value.trim();
+            const endDate = row.querySelector('.end-date').value.trim();
+            
+            if (startDate || endDate) {
+                params.set(`b${index}`, boolean);
+                params.set(`f${index}`, field);
+                params.set(`v${index}`, `${startDate || ''} - ${endDate || ''}`.trim().replace(/^-\s*|-\s*$/g, ''));
+                if (startDate) params.set(`start${index}`, startDate);
+                if (endDate) params.set(`end${index}`, endDate);
+            }
+        } else {
+            const value = row.querySelector('.search-input').value.trim();
+            if (value) {
+                params.set(`b${index}`, boolean);
+                params.set(`f${index}`, field);
+                params.set(`v${index}`, value);
+            }
+        }
+    });
+    
+    // Preserve sort
+    const activeSort = document.querySelector(".browse-sort-item.active");
+    if (activeSort) params.set('sort', activeSort.dataset.filter);
+    
+    window.location = window.location.pathname + "?" + params.toString();
+    
+    // Close modal
+    try {
+        const modal = bootstrap.Modal.getInstance(document.getElementById('advancedSearchModal'));
+        modal?.hide();
+    } catch (e) {
+        console.error('Could not close modal:', e);
+    }
+    
+    return false;
+}
+
+// =============================================================================
+// ACTIVE FILTER INDICATORS
+// =============================================================================
+
+/**
+ * Display active filter buttons below search box
+ */
+function displayActiveFilters(searchCriteria) {
+    const activeFiltersDiv = document.getElementById('activeFilters');
+    if (!activeFiltersDiv) return;
+    
+    activeFiltersDiv.innerHTML = '';
+    if (!searchCriteria?.length) return;
+    
+    const container = document.createElement('div');
+    container.className = 'd-flex flex-wrap align-items-center';
+    
+    // Create filter buttons
+    searchCriteria.forEach((criteria, index) => {
+        if (!criteria.value) return;
+        
+        const button = document.createElement('button');
+        button.className = `btn btn-sm btn-outline-${criteria.boolean === 'NOT' ? 'danger' : criteria.boolean === 'OR' ? 'warning' : 'success'} me-2 mb-1`;
+        button.type = 'button';
+        
+        // Get field display name
+        let fieldName = criteria.field === 'all' ? 'All Fields' : 
+        'display_template' === criteria.field ? 'Content Type' : 
+            'date' === criteria.field ? 'Date' : 'description' === criteria.field ? 'Description' : 'creator' === criteria.field ? 'Creator' : 'subject' === criteria.field ? 'Subject' : 'location' === criteria.field ? 'Location' : 'identifier' === criteria.field ? 'Identifier' : 
+            criteria.field.charAt(0).toUpperCase() + criteria.field.slice(1).replace(/_/g, ' ');
+        
+        // Format display value for dates
+        let displayValue = criteria.value;
+        if (isDateField(criteria.field) && (criteria.startDate || criteria.endDate)) {
+            if (criteria.startDate && criteria.endDate) {
+                displayValue = `${criteria.startDate} to ${criteria.endDate}`;
+            } else if (criteria.startDate) {
+                displayValue = `from ${criteria.startDate}`;
+            } else if (criteria.endDate) {
+                displayValue = `until ${criteria.endDate}`;
+            }
+        }
+        
+        const showBoolean = searchCriteria.length > 1 && criteria.boolean !== 'AND';
+        button.innerHTML = `
+            <span class="me-1">${showBoolean ? criteria.boolean + ' ' : ''}${fieldName}: "${displayValue}"</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+            </svg>
+        `;
+        
+        button.addEventListener('click', () => {
+            if (window.location.hash && !window.location.search) {
+                resetFilter();
+            } else {
+                removeActiveFilter(index);
+            }
+        });
+        
+        container.appendChild(button);
+    });
+    
+    // Add "Add Field" button
+    const addButton = document.createElement('button');
+    addButton.type = 'button';
+    addButton.className = 'btn btn-outline-secondary btn-sm mb-1';
+    addButton.innerHTML = `
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"></path>
+            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"></path>
+        </svg>
+        Add Field
+    `;
+    addButton.addEventListener('click', () => {
+        new bootstrap.Modal(document.getElementById('advancedSearchModal')).show();
+    });
+    
+    container.appendChild(addButton);
+    activeFiltersDiv.appendChild(container);
+}
+
+/**
+ * Remove a specific active filter by rebuilding URL without it
+ */
+function removeActiveFilter(filterIndex) {
+    if (window.location.hash && !window.location.search) {
+        resetFilter();
+        return;
+    }
+    
+    const urlParams = new URLSearchParams(window.location.search);
+    const newParams = new URLSearchParams();
+    let newIndex = 0;
+    
+    // Rebuild parameters excluding the removed filter
+    let index = 0;
+    while (urlParams.has(`f${index}`)) {
+        if (index !== filterIndex) {
+            newParams.set(`b${newIndex}`, urlParams.get(`b${index}`));
+            newParams.set(`f${newIndex}`, urlParams.get(`f${index}`));
+            newParams.set(`v${newIndex}`, urlParams.get(`v${index}`));
+            if (urlParams.has(`start${index}`)) newParams.set(`start${newIndex}`, urlParams.get(`start${index}`));
+            if (urlParams.has(`end${index}`)) newParams.set(`end${newIndex}`, urlParams.get(`end${index}`));
+            newIndex++;
+        }
+        index++;
+    }
+    
+    // Preserve sort
+    if (urlParams.has('sort')) newParams.set('sort', urlParams.get('sort'));
+    
+    // Navigate to new URL or reset if no filters left
+    if (newIndex === 0) {
+        resetFilter();
+    } else {
+        window.location = window.location.pathname + '?' + newParams.toString();
+    }
+}
+
+// =============================================================================
+// SORTING UTILITIES
+// =============================================================================
+
+/**
+ * Fisher-Yates shuffle for random sorting
+ */
+function shuffle(array) {
+    let m = array.length;
+    while (m) {
+        const i = Math.floor(Math.random() * m--);
+        [array[m], array[i]] = [array[i], array[m]];
+    }
+    return array;
+}
+
+/**
+ * Sort items by specified field
+ */
+function sorting(jsonObject, keyToSortBy) {
+    jsonObject.sort((a, b) => {
+        let x = a[keyToSortBy];
+        let y = b[keyToSortBy];
+        if (typeof x === 'string') x = x.toUpperCase();
+        if (typeof y === 'string') y = y.toUpperCase();
+        return (x == null) ? 1 : (y == null) ? -1 : (x < y) ? -1 : (x > y) ? 1 : 0;
+    });
+}
+
+// =============================================================================
+// INITIALIZATION & EVENT HANDLERS
+// =============================================================================
+
+/**
+ * Initialize page on load
+ */
+window.addEventListener('load', function() {
+    // Cache DOM elements
+    loadingIcon = document.querySelector("#loadingIcon");
+    filterTextBox = document.querySelector('#filterTextBox');
+    browseItemsDiv = document.querySelector("#browseItems");
+    
+    // Initialize default sort
+    
+    shuffle(items);
+    
+    
+    // Parse URL and initialize search state
+    const urlParams = new URLSearchParams(window.location.search);
+    
+    // Handle sort parameter
+    if (urlParams.has('sort')) {
+        const sortValue = urlParams.get('sort');
+        document.querySelectorAll('.browse-sort-item').forEach(option => {
+            option.classList.remove('active');
+            if (option.dataset.filter === sortValue) {
+                option.classList.add('active');
+                document.getElementById('sortFilter').innerHTML = option.textContent;
+                sortValue !== 'random' ? sorting(items, sortValue) : shuffle(items);
+            }
+        });
+    }
+    
+    // Handle advanced search parameters
+    if (urlParams.toString()) {
+        const searchRows = document.getElementById('searchRows');
+        if (searchRows) searchRows.innerHTML = '';
+        
+        let index = 0;
+        const searchCriteria = [];
+        
+        // Parse URL parameters into search criteria
+        while (urlParams.has(`f${index}`)) {
+            const criteria = {
+                boolean: urlParams.get(`b${index}`),
+                field: urlParams.get(`f${index}`),
+                value: urlParams.get(`v${index}`)
+            };
+            if (urlParams.has(`start${index}`)) criteria.startDate = urlParams.get(`start${index}`);
+            if (urlParams.has(`end${index}`)) criteria.endDate = urlParams.get(`end${index}`);
+            
+            searchCriteria.push(criteria);
+            if (searchRows) addSearchRow(criteria);
+            index++;
+        }
+        
+        // Add extra empty row and apply filters
+        if (searchRows && searchCriteria.length > 0) addSearchRow();
+        advancedFilterItems(items, searchCriteria);
+    }
+    // Handle hash-based search
+    else if (window.location.hash) {
+        handleHashChange();
+    }
+    // Default: show all items
+    else {
+        const searchRows = document.getElementById('searchRows');
+        if (searchRows) {
+            searchRows.innerHTML = '';
+            for (let i = 0; i < 3; i++) addSearchRow();
+        }
+        filterItems(items, "", "all");
+    }
+    
+    // Set up event handlers
+    setupEventHandlers();
+});
+
+/**
+ * Set up all event handlers
+ */
+function setupEventHandlers() {
+    // Hash change handler
+    window.addEventListener("hashchange", handleHashChange);
+    
+    // Form submission handlers
+    document.getElementById('browseFilter').addEventListener('submit', e => {
+        e.preventDefault();
+        submitFilter();
+        return false;
+    });
+    
+    const advancedSearchForm = document.getElementById('advancedSearchForm');
+    if (advancedSearchForm) {
+        advancedSearchForm.addEventListener('submit', e => {
+            e.preventDefault();
+            submitAdvancedSearch(e);
+            return false;
+        });
+    }
+    
+    
+    // Field selection handlers
+    document.querySelector("#fieldSelect").addEventListener("change", function(e) {
+        const field = e.target.value;
+        
+        if (field === 'advanced') {
+            e.target.value = 'all';
+            new bootstrap.Modal(document.getElementById('advancedSearchModal')).show();
+            return;
+        }
+        
+        toggleDateInputs(field, document.querySelector('#browseFilter'));
+        document.querySelector("#selectedField").textContent = e.target.options[e.target.selectedIndex].text;
+    });
+    
+    // Mobile dropdown handler
+    document.addEventListener('click', function(e) {
+        if (e.target.matches('.dropdown-item[data-field]')) {
+            const field = e.target.getAttribute('data-field');
+            const fieldSelect = document.getElementById('fieldSelect');
+            const selectedField = document.getElementById('selectedField');
+            
+            if (field === 'advanced') {
+                new bootstrap.Modal(document.getElementById('advancedSearchModal')).show();
+                return;
+            }
+            
+            if (fieldSelect) {
+                fieldSelect.value = field;
+                fieldSelect.dispatchEvent(new Event('change'));
+            }
+            if (selectedField) selectedField.textContent = e.target.textContent;
+        }
+    });
+    
+    // Sort option handlers
+    document.querySelectorAll(".browse-sort-item").forEach(button => {
+        button.addEventListener("click", event => {
+            const field = button.dataset.filter;
+            const displayName = button.textContent;
+            
+            // Update active sort option
+            document.querySelectorAll(".browse-sort-item").forEach(opt => opt.classList.remove("active"));
+            button.classList.add("active");
+            document.getElementById("sortFilter").innerHTML = displayName;
+            
+            // Apply sort
+            field !== 'random' ? sorting(items, field) : shuffle(items);
+            
+            // Handle current search state
+            const urlParams = new URLSearchParams(window.location.search);
+            
+            if (urlParams.toString()) {
+                // Advanced search active - update URL with sort parameter
+                const searchCriteria = [];
+                let index = 0;
+                
+                while (urlParams.has(`f${index}`)) {
+                    const criteria = {
+                        boolean: urlParams.get(`b${index}`),
+                        field: urlParams.get(`f${index}`),
+                        value: urlParams.get(`v${index}`)
+                    };
+                    if (urlParams.has(`start${index}`)) criteria.startDate = urlParams.get(`start${index}`);
+                    if (urlParams.has(`end${index}`)) criteria.endDate = urlParams.get(`end${index}`);
+                    searchCriteria.push(criteria);
+                    index++;
+                }
+                
+                const newParams = new URLSearchParams();
+                searchCriteria.forEach((criteria, i) => {
+                    newParams.set(`b${i}`, criteria.boolean);
+                    newParams.set(`f${i}`, criteria.field);
+                    newParams.set(`v${i}`, criteria.value);
+                    if (criteria.startDate) newParams.set(`start${i}`, criteria.startDate);
+                    if (criteria.endDate) newParams.set(`end${i}`, criteria.endDate);
+                });
+                newParams.set('sort', field);
+                
+                window.history.pushState({}, '', window.location.pathname + '?' + newParams.toString());
+                advancedFilterItems(items, searchCriteria);
+            } else {
+                // Basic search - apply sort and current filter
+                const query = filterTextBox.value;
+                
+                const searchField = document.querySelector("#fieldSelect").value;
+                filterItems(items, query, searchField);
+            }
+        });
+    });
+    
+    // Advanced search modal handler
+    const advancedSearchModal = document.getElementById('advancedSearchModal');
+    if (advancedSearchModal) {
+        advancedSearchModal.addEventListener('show.bs.modal', function() {
+            // Reflect hash-based search in modal
+            if (window.location.hash && !window.location.search) {
+                const hash = decodeURIComponent(location.hash.substr(1));
+                if (!hash) return;
+                
+                let field = 'all';
+                let query = hash;
+                
+                if (hash.includes(":")) {
+                    const [potentialField, hashQuery] = hash.split(":");
+                    if (validFields.includes(potentialField)) {
+                        field = potentialField;
+                        query = hashQuery;
+                    }
+                }
+                
+                updateAdvancedSearchModal([{boolean: 'AND', field: field, value: query}]);
+            }
+        });
+    }
+}
+</script>
+
+
+    <script>
+    // When the user scrolls down from the top of the document, show the button
+    window.onscroll = function () {
+        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+            document.getElementById("scroll-to-top").style.display = "block";
+        } else {
+            document.getElementById("scroll-to-top").style.display = "none";
+        }
+    }
+</script>
+<a href="#maincontent" id="scroll-to-top" class="btn btn-link" title="Back to Top">
+    <span class="visually-hidden">Back to top</span>
+    <svg class="bi icon-sprite" role="img" aria-label="Up Arrow">
+        <use xlink:href="/assets/css/cb-icons.svg#icon-back-to-top"/>
+    </svg>
+</a>
+  </body>
+</html>

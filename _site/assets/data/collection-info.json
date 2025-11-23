@@ -1,0 +1,26 @@
+{ 
+    "title": "CollectionBuilder CSV",
+    "url": "http://localhost:4000/",
+    "image": "https://objects.lib.uidaho.edu/postcards/pg_9_16_01a.jpg", 
+    "description": "CollectionBuilder-CSV is a template for creating digital collection exhibits using static web technology.",
+    "publisher": { 
+        "name": "Center for Digital Inquiry and Learning (CDIL)", 
+        "url": "https://cdil.lib.uidaho.edu/", 
+        "logo": "https://www.lib.uidaho.edu/collectionbuilder/cdil-black.png" 
+    },
+    "date_start": "1898",
+    "date_end": "2022",
+    "objects": {
+        "image/jpeg": "18",
+        "application/pdf": "7",
+        "audio/mp3": "1",
+        "video/mp4": "4",
+        "compound_object": "2",
+        "multiple": "1",
+        "text/html": "1"
+        
+    },
+    "data": "http://localhost:4000/assets/data/datapackage.json",
+    "last_build_date": "2025-11-22"
+}
+

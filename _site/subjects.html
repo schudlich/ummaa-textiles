@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head prefix="og: http://ogp.me/ns#">
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Subjects | CollectionBuilder CSV</title>
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<!--
+
+  _____     ____        __  _           ___       _ __   __       
+ / ___/__  / / /__ ____/ /_(_)__  ___  / _ )__ __(_) /__/ /__ ____
+/ /__/ _ \/ / / -_) __/ __/ / _ \/ _ \/ _  / // / / / _  / -_) __/
+\___/\___/_/_/\__/\__/\__/_/\___/_//_/____/\_,_/_/_/\_,_/\__/_/   
+                                                                
+    built with CollectionBuilder-CSV
+    https://github.com/CollectionBuilder/collectionbuilder-csv
+-->
+<meta name="generator" content="collectionbuilder-csv" />
+<meta http-equiv="Content-Language" content="en-us" >
+
+<!-- load style sheets -->
+<link rel="stylesheet" href="/assets/lib/bootstrap.min.css" type="text/css">
+<!-- load custom css last to allow overrides -->
+<link rel="stylesheet" href="/assets/css/cb.css" type="text/css">
+
+
+<!-- Last build date: 2025-11-22 -->
+  </head>
+  <body class="d-flex flex-column h-100">
+    <div id="skip-to-content"><a href="#maincontent">Skip to main content</a></div>
+    <div class="container">
+    <div class="row align-items-center">
+        <div id="title" class="col-md-9">
+            <h1 class="mt-2"><a class="text-dark" href="/" >CollectionBuilder CSV</a></h1>	 
+            <p>Digital Collection Magic with Static Web Technologies</p>
+        </div>
+        
+        <div class="col-md-3 d-none d-lg-block text-end">
+            <a class="btn btn-outline-light" href="https://cdil.lib.uidaho.edu/">
+                <img class="img-fluid" src="https://www.lib.uidaho.edu/collectionbuilder/cdil-black.png" title="Center for Digital Inquiry and Learning (CDIL)" alt="Center for Digital Inquiry and Learning (CDIL) home" >
+            </a>
+        </div>
+        
+    </div>
+</div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#page-nav" aria-controls="page-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <span class="d-lg-none text-end">
+            <a href="https://cdil.lib.uidaho.edu/">
+                <img class="img-fluid" id="mobile-nav-image" src="https://www.lib.uidaho.edu/collectionbuilder/cdil-white.png" title="Center for Digital Inquiry and Learning (CDIL)" alt="Center for Digital Inquiry and Learning (CDIL) home" >
+            </a>
+        </span>
+        
+        <div class="collapse navbar-collapse" id="page-nav">
+            <ul class="navbar-nav me-auto">
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/browse.html">Browse</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link active" href="/subjects.html">Subjects</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/locations.html">Locations</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/map.html">Map</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/timeline.html">Timeline</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/data.html">Data</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/about.html">About</a>
+                </li></ul>
+            
+            <script>
+    function site_search() {
+        var query = document.getElementById("site-search").value;
+        window.open("/search/index.html?q=" + encodeURIComponent(query), "_self" );
+    }
+</script>
+<form class="form-inline my-2 my-lg-0" role="search" id="search" onsubmit="site_search(); return false;">
+    <div class="input-group">
+        <input id="site-search" class="form-control " type="text" placeholder="Search" aria-label="Search box">
+        <button class="btn btn-light" type="submit">
+            <span id="search-icon"><svg viewBox="0 0 1024 974" height="16px" width="20px"><path d="M960 832L710.875 582.875C746.438 524.812 768 457.156 768 384 768 171.96900000000005 596 0 384 0 171.969 0 0 171.96900000000005 0 384c0 212 171.969 384 384 384 73.156 0 140.812-21.562 198.875-57L832 960c17.5 17.5 46.5 17.375 64 0l64-64C977.5 878.5 977.5 849.5 960 832zM384 640c-141.375 0-256-114.625-256-256s114.625-256 256-256 256 114.625 256 256S525.375 640 384 640z"/></svg></span>
+            <span class="visually-hidden">Search</span>
+        </button>
+    </div>
+</form>
+            
+        </div>
+    </div>
+</nav>
+
+    <main id="maincontent" role="main" class="flex-shrink-0">
+      <div class="container my-4">
+  <h2 id="browse-subjects">Browse Subjects</h2>
+
+<p>Use this word cloud visualization to browse terms and subjects.
+Word size is determined by frequency and all words link to a corresponding collection search.</p>
+
+<div id="cloud-div-subject-creator" class="text-center my-4 bg-light border rounded p-2"></div>
+<script>
+(function(){    
+    /* subject terms + count */
+    var terms = [
+        ["american football", 1,"subject"], ["automobiles", 1,"subject"], ["becker, devin", 1,"creator"], ["benedict, m.s.", 1,"creator"], ["bjornn, t.c.", 1,"creator"], ["black history", 1,"subject"], ["buildings", 2,"subject"], ["camp fire", 1,"subject"], ["campsite", 1,"subject"], ["campuses", 1,"subject"], ["combines", 1,"subject"], ["county courthouses", 1,"subject"], ["equus caballus (species)", 1,"subject"], ["failure", 1,"subject"], ["fields (land)", 1,"subject"], ["fisheries management", 1,"subject"], ["flagpoles", 1,"subject"], ["flags", 1,"subject"], ["forestry", 1,"subject"], ["frank b. robinson", 1,"subject"], ["horses", 1,"subject"], ["indigenous tribe", 1,"subject"], ["inland printing co.", 1,"creator"], ["jennie eva hughes", 1,"subject"], ["keeping watch", 2,"creator"], ["material abundance", 1,"subject"], ["men", 1,"subject"], ["mitchell, edward h.", 1,"creator"], ["national forests", 1,"subject"], ["pacific photo co.", 1,"creator"], ["patrol", 1,"subject"], ["payette national forest", 1,"subject"], ["peeled tree", 1,"subject"], ["picture postcards", 4,"subject"], ["poetry", 1,"subject"], ["public buildings", 1,"subject"], ["rangers", 1,"subject"], ["reischel, t.s.", 1,"creator"], ["restaurants", 1,"subject"], ["riders", 1,"subject"], ["rivers", 1,"subject"], ["robinson, frank b.", 1,"creator"], ["spokane post card co.", 1,"creator"], ["success", 1,"subject"], ["thompson, j. b.", 1,"creator"], ["trees", 1,"subject"], ["universities", 1,"subject"], ["university of idaho", 1,"subject"], ["vandal athletics", 1,"creator"]
+    ];
+
+    
+    /* calculate max size */
+    var counts = terms.map(function(obj){ return obj[1]; });
+    var countMax = counts.reduce(function(a, b) { return Math.max(a, b); });
+    var cloud = document.getElementById("cloud-div-subject-creator");
+    
+
+    function mapSize(x) { return Math.round(x * 9 / countMax + 1); }
+    /* create cloud */
+    function makeGrid(array) {
+        var i, size;
+        var items = "";
+        
+        for (let i = 0; i < array.length; i++) {
+            size = mapSize(array[i][1]);
+            items += '<a class="btn btn-outline-primary m-2 tagcloud' + size + '" href="/browse.html#' + array[i][2] + ':' + encodeURIComponent(array[i][0]) + '" >' + array[i][0] + '</a>';
+        }
+        cloud.innerHTML = items;
+    }
+    makeGrid(terms);
+
+})();
+</script>
+
+</div>
+    </main>
+    <footer class="bg-dark pt-4 mt-auto container-fluid">
+
+    <div class="row border-bottom border-white pb-4 mb-2">
+
+        <div class="col-md-7 px-4 mt-3">
+
+            <h2 class="h4"><a href="/" class="text-white">CollectionBuilder CSV</a></h2>
+            <p class="text-white"><small>CollectionBuilder-CSV is a template for creating digital collection exhibits using static web technology.</small></p>
+            <nav>
+                <ul id="footer-nav" class="nav nav-pills ">
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light" href="/browse.html">Browse</a>
+                    </li>
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light active" href="/subjects.html">Subjects</a>
+                    </li>
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light" href="/locations.html">Locations</a>
+                    </li>
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light" href="/map.html">Map</a>
+                    </li>
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light" href="/timeline.html">Timeline</a>
+                    </li>
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light" href="/data.html">Data</a>
+                    </li>
+                    <li class="nav-item">
+                    
+                        <a class="nav-link text-light" href="/about.html">About</a>
+                    </li></ul>
+            </nav>
+
+        </div>
+
+        <div class="col-md-5 mt-3 text-center">
+
+            <p class="text-md-end">
+                <a href="https://cdil.lib.uidaho.edu/">
+                    <img id="footer-logo" class="img-fluid" src="https://www.lib.uidaho.edu/collectionbuilder/cdil-white.png" alt="Center for Digital Inquiry and Learning (CDIL) home">
+                </a>
+            </p>
+            
+            <p class="text-white text-md-end" id="footer-credits">
+                <small><em>built with</em>
+                    <a href="https://collectionbuilder.github.io/" title="CollectionBuilder">
+                        <img src="/assets/img/collectionbuilder-logo.png" class="img-fluid" alt="CollectionBuilder" >
+                    </a>
+                </small>
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="col-md-12 text-center pt-3 pb-1">
+        <p class="text-white">Last updated 2025</p>
+    </div>
+
+</footer>
+    <!-- Bootstrap bundle JS -->
+<script src="/assets/lib/bootstrap.bundle.min.js"></script>
+<!-- load other js -->
+<script src="/assets/lib/lazysizes.min.js" async></script>
+
+
+    <script>
+    // When the user scrolls down from the top of the document, show the button
+    window.onscroll = function () {
+        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+            document.getElementById("scroll-to-top").style.display = "block";
+        } else {
+            document.getElementById("scroll-to-top").style.display = "none";
+        }
+    }
+</script>
+<a href="#maincontent" id="scroll-to-top" class="btn btn-link" title="Back to Top">
+    <span class="visually-hidden">Back to top</span>
+    <svg class="bi icon-sprite" role="img" aria-label="Up Arrow">
+        <use xlink:href="/assets/css/cb-icons.svg#icon-back-to-top"/>
+    </svg>
+</a>
+  </body>
+</html>
