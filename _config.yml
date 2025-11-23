@@ -18,12 +18,12 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-csv
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: University of Michigan Museum of Anthropological Archaeology Philippines Textiles Collection
+title: University of Michigan Museum of Anthropological Archaeology Philippine Textiles Collection
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Featured textiles from the UMMAA Philippines Collection.
+tagline: Featured textiles from the UMMAA Philippine Collections.
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "A digital collection exhibit showcasing selected textiles from the University of Michigan Museum of Anthropological Archaeology's Philippines Collection."
+description: "A digital collection exhibit showcasing selected textiles from the University of Michigan Museum of Anthropological Archaeology's Philippine Collections."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: 
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
@@ -50,17 +50,17 @@ metadata: demo-compoundobjects-metadata
 #
 # Enter name and link for your organization (replacing the name and links below)
 # These values will be used in attribution and data 
-organization-name: "Center for Digital Inquiry and Learning (CDIL)"
-organization-link: https://cdil.lib.uidaho.edu/
+organization-name: "University of Michigan Museum of Anthropological Archaeology - Philippine Collections"
+organization-link: https://sites.lsa.umich.edu/ummaa-philippines/
 # Add logo image links if you would like them to appear in banner and footer. Delete or leave blank to remove logos.
-organization-logo-banner: https://www.lib.uidaho.edu/collectionbuilder/cdil-black.png
-organization-logo-nav: https://www.lib.uidaho.edu/collectionbuilder/cdil-white.png
+organization-logo-banner: 
+organization-logo-nav: 
 
 ##########
 # ROBOTS EXCLUDE
 #
 # set noindex to true if you do NOT want Google to index your site
-# noindex: true 
+noindex: true 
 
 ##########
 # BUILD SETTINGS 
