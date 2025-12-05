@@ -1,5 +1,5 @@
 var store = [{  
-"title": "Administration Building, University of Idaho, No. 30","date": "1910","creator": "Pacific Photo Co.","description": "Example locally hosted image item. Photographic postcard of the University of Idaho administration building in Moscow, Idaho.","subject": "universities; buildings; campuses; picture postcards","location": "Moscow, Idaho", 
+"title": "Administration Building, University of Idaho, No. 30","date": "1910","creator": "Pacific Photo Co.","description": "test (http://vocab.getty.edu/page/aat/300117127)","subject": "universities; buildings; campuses; picture postcards","location": "Moscow, Idaho", 
 "id": "demo_001.html"
 
 },{  
