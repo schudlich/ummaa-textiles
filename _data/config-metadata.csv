@@ -1,16 +1,26 @@
-field,display_name,browse_link,external_link,dc_map,schema_map,MODS_map
+field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
-creator,Creator,,,DCTERMS.creator,creator
-date,Date Created,,,DCTERMS.date,dateCreated
-description,Description,,,DCTERMS.description,description
-subject,Subjects,true,,DCTERMS.subject,keywords
-location,Location,,,,contentLocation
-latitude,Latitude,,,,
-longitude,Longitude,,,,
-source,Source,,,,
-identifier,Source Identifier,,,,,
-type,Type,,,DCTERMS.type,
-format,Format,,,,encodingFormat
-language,Language,,,DCTERMS.language,
-rightsstatement,,,,DCTERMS.rights,license
+dcterms:identifier,Object identifier,,,DCTERMS.identifier,
+dcterms:collection,Divisions,,,DCTERMS.collection,
+mods:recordIdentifier,Accession Number,,,,
+dcterms:accrualMethod,Accession Method,,,DCTERMS.accrualMethod,
+mods:dateOther,Accession Date,,,,
+mods:physicalDescription.extent,Quantity,,,,
+mods:typeOfResource,Type,,,,
+mods:recordInfo.recordInfoNote,Record,,,,
+mods:recordInfo.recordInfoNote,Other Numbers,,,,
+dcterms:type,Object Type,,,DCTERMS.type,
+dcterms:medium,Materials,,,DCTERMS.medium,
+dcterms:date,Display Date,,,DCTERMS.date,
+dcterms:provenance,Provenience,,,DCTERMS.provenance,
+mods:subject.hierarchicalGeographic.continent,Continent,,,,
+mods:subject.hierarchicalGeographic.country,Country,,,,
+mods:subject.hierarchicalGeographic.region,Region,,,,
+mods:subject.hierarchicalGeographic.state,State,,,,
+mods:subject.hierarchicalGeographic.citySection,City Section,,,,
+mods:subject.hierarchicalGeographic.state,State,,,,
+mods:subject.hierarchicalGeographic.city,City,,,,
+mods:originInfo,Culture,,,,
+mods:abstract,Description,,,,
+mods:recordInfo.recordInfoNote,Curatorial Notes,,,,
 
