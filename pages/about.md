@@ -5,9 +5,9 @@ permalink: /about.html
 # include CollectionBuilder info at bottom
 credits: true
 # featured-image value can be one objectid for a photo object in this collection, a relative path to an image in this project, or a full url to any image. If left blank, no featured image will appear at top of About page.
-about-featured-image: demo_031
+about-featured-image: /objects/2002_3_27.jpg
 # set background-position for featured image, "center", "top", "bottom"
-position: bottom
+position: center
 # major heading to display over featured image
 heading: About the Collection
 # paragraph text below heading in featured image
@@ -17,23 +17,22 @@ padding: 6em
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
+## About this Philippines Textiles Collection Exhibit
 
-## About CollectionBuilder CSV
+This Exhibit is made up of 140 items from the University of Michigan Museum of Anthropological Archaeology (UMMAA) Philippines Collections. The items in this exhibit include textiles and other wearable garments from the source collection. Images are only available for select textile objects and have been supplied by the Michigan Museum of Anthropological Archaeology.
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+Some metadata fields may be limited or blank due to gaps in the original data and more complete metadata could potentially be found through UMMAA.
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+## About the Creators of this Exhibit
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
+### Theresa Azemar, MSI
 
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
+[Insert text]
 
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
+### Evan Gomish, MSI
 
-{% include feature/image.html objectid="demo_001" width="75" %} 
+[Insert text]
 
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+### Tanner Schudlich, MSW, MSI
+
+Tanner is a second year graduate student pursuing their Master's of Science in Information at the University of Michigan School of Information. Outside of classes, Tanner works at the University of Michgian Special Collections Research Center processing archival collections as a graduate student archivist. Tanner's academic and research interests lie at the intersections of archival science and social work practice and they seek to understand ways that archivists can create more humane archives to make cultural heritage more representative of and accessible to everyone.
