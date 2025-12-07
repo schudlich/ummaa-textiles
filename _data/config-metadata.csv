@@ -1,38 +1,26 @@
-field,display_name,browse_link,external_link,dc_map,schema_map,MODS_map
-title,Title,,,DCTERMS.title,headline,
-creator,Creator,,,DCTERMS.creator,creator,
-date,Date Created,,,DCTERMS.date,dateCreated,
-description,Description,,,DCTERMS.description,description,
-subject,Subjects,TRUE,,DCTERMS.subject,keywords,
-location,Location,,,,contentLocation,
-latitude,Latitude,,,,,
-longitude,Longitude,,,,,
-source,Source,,,,,
-identifier,Source Identifier,,,,,
-type,Type,,,DCTERMS.type,,
-format,Format,,,,encodingFormat,
-language,Language,,,DCTERMS.language,,
-rightsstatement,,,,DCTERMS.rights,license,
-ObjectIdentifier,Object identifier,,,DCTERMS.identifier,,
-Divisions,Division,,,DCTERMS.collection,,
-AccessionNumber,Accession Number,,,,,MODS.<recordIdentifier>
-AccessionDescription1,Accession Method,,,DCTERMS.accrualMethod,,
-AccessionDescription2,Accession Date,,,,,MODS.dateOther
-Quantity,Quantity,,,,,MODS.<physicalDescription><extent>
-Type,Type,,,,,MODS.<typeOfResource>
-OriginalNumber,Record,,,,,MODS.<recordInfo><recordInfoNote>
-OtherNumbers,Other Numbers,,,,,MODS.<recordInfo><recordInfoNote>
-ObjectType,Object Type,,,DCTERMS.type,,
-Materials,Materials,,,DCTERMS.medium,,
-DisplayDate,Display Date,,,DCTERMS.date,,
-Provenience,Provenience,,,DCTERMS.provenance,,
-VerbatimGeography1,Continent,,,,,MODS.<subject><hierarchicalGeographic><continent>
-VerbatimGeography2,Country,,,,,MODS.<subject><hierarchicalGeographic><country>
-VerbatimGeography3,Region,,,,,MODS.<subject><hierarchicalGeographic><region>
-VerbatimGeography4,State,,,,,MODS.<subject><hierarchicalGeographic><state>
-GeographicLocation1,City Section,,,,,MODS.<subject><hierarchicalGeographic><citySection>
-GeographicLocation2,State,,,,,MODS.<subject><hierarchicalGeographic><state>
-Political Location,City,,,,,MODS.<subject><hierarchicalGeographic><city>
-Culture,Culture,,,,,MODS.<originInfo>
-Description,Description,,,,,MODS.<abstract>
-CuratorialNotes,Curatorial Notes,,,,,MODS.<recordInfo><recordInfoNote>
+field,display_name,browse_link,external_link,dc_map,schema_map
+title,Title,,,DCTERMS.title,headline
+dcterms:identifier,Object identifier,,,DCTERMS.identifier,
+dcterms:collection,Divisions,,,DCTERMS.collection,
+mods:recordIdentifier,Accession Number,,,,
+dcterms:accrualMethod,Accession Method,,,DCTERMS.accrualMethod,
+mods:dateOther,Accession Date,,,,
+mods:physicalDescription.extent,Quantity,,,,
+mods:typeOfResource,Type,,,,
+mods:recordInfo.recordInfoNote,Record,,,,
+mods:recordInfo.recordInfoNote,Other Numbers,,,,
+dcterms:type,Object Type,,,DCTERMS.type,
+dcterms:medium,Materials,,,DCTERMS.medium,
+dcterms:date,Display Date,,,DCTERMS.date,
+dcterms:provenance,Provenience,,,DCTERMS.provenance,
+mods:subject.hierarchicalGeographic.continent,Continent,,,,
+mods:subject.hierarchicalGeographic.country,Country,,,,
+mods:subject.hierarchicalGeographic.region,Region,,,,
+mods:subject.hierarchicalGeographic.state,State,,,,
+mods:subject.hierarchicalGeographic.citySection,City Section,,,,
+mods:subject.hierarchicalGeographic.state,State,,,,
+mods:subject.hierarchicalGeographic.city,City,,,,
+mods:originInfo,Culture,,,,
+mods:abstract,Description,,,,
+mods:recordInfo.recordInfoNote,Curatorial Notes,,,,
+
