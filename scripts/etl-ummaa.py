@@ -116,10 +116,20 @@ for entry in all_data:
     if entry["Curatorial Notes"] != '':
         elem["mods:recordInfo.recordInfoNote"] = entry["Curatorial Notes"]
 
+    # add fields required for CollectionBuilder
+    elem["objectid"] = entry["Object identifier"].replace("-", "_")
+    elem["filename"] = elem["objectid"] + ".jpg"
+    elem["title"] = elem["objectid"] + ": " + elem["mods:abstract"].split("\n")[0].split(".")[0]
+    elem["format"] = "image/jpeg"
+
     mapped_data.append(elem)
 
 # export the data to csv
 headers = [
+    "objectid",
+    "filename",
+    "title",
+    "format",
     "dcterms:identifier",
     "dcterms:collection",
     "mods:recordIdentifier",
