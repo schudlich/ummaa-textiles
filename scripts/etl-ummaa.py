@@ -1,6 +1,5 @@
 import csv
 import re
-import pprint
 
 # +-----------+
 # |    MAP    |
@@ -118,8 +117,6 @@ for entry in all_data:
         elem["mods:recordInfo.recordInfoNote"] = entry["Curatorial Notes"]
 
     mapped_data.append(elem)
-
-    # pprint.pp(mapped_data)
 
 # export the data to csv
 headers = [
