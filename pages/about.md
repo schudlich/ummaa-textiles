@@ -27,11 +27,11 @@ Some metadata fields may be limited or blank due to gaps in the original data an
 
 ### Theresa Azemar, MSI
 
-[Insert text]
+Theresa is a second year graduate student pursuing their Master's of Science in Information at the University of Michigan School of Information. 
 
 ### Evan Gomish, MSI
 
-[Insert text]
+Evan is a second year graduate student pursuing their Master's of Science in Information at the University of Michigan School of Information. 
 
 ### Tanner Schudlich, MSW, MSI
 
