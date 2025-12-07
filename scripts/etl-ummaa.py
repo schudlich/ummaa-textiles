@@ -144,7 +144,7 @@ headers = [
     "mods:abstract",
     "mods:recordInfo.recordInfoNote"
 ]
-with open("output.csv", 'w', newline="", encoding="utf-8") as dataout:
+with open("../_data/ummaa-objects.csv", 'w', newline="", encoding="utf-8") as dataout:
     fout = csv.DictWriter(dataout, fieldnames=headers, extrasaction="ignore", dialect="unix")
     fout.writeheader()
     fout.writerows(mapped_data)
