@@ -1,5 +1,5 @@
 { "objects": [{ 
-        "title": "1361: Game-carrier (?) ",
+        "title": "1361: Game-carrier (?)",
         
         
         
@@ -774,8 +774,8 @@
         
         
         
-        
-        "object_location": "",
+        "object_thumb": "http://localhost:4000/ummaa-textiles/objects/thumbs/2002_3_1.jpg",
+        "object_location": "http://localhost:4000/ummaa-textiles/objects/2002_3_1.jpg",
         "reference_url": "/ummaa-textiles/items/2002_3_1.html"
     },
     { 
@@ -794,8 +794,8 @@
         
         
         
-        
-        "object_location": "",
+        "object_thumb": "http://localhost:4000/ummaa-textiles/objects/thumbs/2002_3_3.jpg",
+        "object_location": "http://localhost:4000/ummaa-textiles/objects/2002_3_3.jpg",
         "reference_url": "/ummaa-textiles/items/2002_3_3.html"
     },
     { 
@@ -814,8 +814,8 @@
         
         
         
-        
-        "object_location": "",
+        "object_thumb": "http://localhost:4000/ummaa-textiles/objects/thumbs/2002_3_5.jpg",
+        "object_location": "http://localhost:4000/ummaa-textiles/objects/2002_3_5.jpg",
         "reference_url": "/ummaa-textiles/items/2002_3_5.html"
     },
     { 
@@ -834,8 +834,8 @@
         
         
         
-        
-        "object_location": "",
+        "object_thumb": "http://localhost:4000/ummaa-textiles/objects/thumbs/2002_3_6.jpg",
+        "object_location": "http://localhost:4000/ummaa-textiles/objects/2002_3_6.jpg",
         "reference_url": "/ummaa-textiles/items/2002_3_6.html"
     },
     { 
@@ -854,8 +854,8 @@
         
         
         
-        
-        "object_location": "",
+        "object_thumb": "http://localhost:4000/ummaa-textiles/objects/thumbs/2002_3_7.jpg",
+        "object_location": "http://localhost:4000/ummaa-textiles/objects/2002_3_7.jpg",
         "reference_url": "/ummaa-textiles/items/2002_3_7.html"
     },
     { 
@@ -894,8 +894,8 @@
         
         
         
-        
-        "object_location": "",
+        "object_thumb": "http://localhost:4000/ummaa-textiles/objects/thumbs/2002_3_8.jpg",
+        "object_location": "http://localhost:4000/ummaa-textiles/objects/2002_3_8.jpg",
         "reference_url": "/ummaa-textiles/items/2002_3_8.html"
     },
     { 
@@ -914,8 +914,8 @@
         
         
         
-        
-        "object_location": "",
+        "object_thumb": "http://localhost:4000/ummaa-textiles/objects/thumbs/2002_3_9.jpg",
+        "object_location": "http://localhost:4000/ummaa-textiles/objects/2002_3_9.jpg",
         "reference_url": "/ummaa-textiles/items/2002_3_9.html"
     },
     { 
@@ -934,8 +934,8 @@
         
         
         
-        
-        "object_location": "",
+        "object_thumb": "http://localhost:4000/ummaa-textiles/objects/thumbs/2002_3_10.jpg",
+        "object_location": "http://localhost:4000/ummaa-textiles/objects/2002_3_10.jpg",
         "reference_url": "/ummaa-textiles/items/2002_3_10.html"
     },
     { 
@@ -954,8 +954,8 @@
         
         
         
-        
-        "object_location": "",
+        "object_thumb": "http://localhost:4000/ummaa-textiles/objects/thumbs/2002_3_11.jpg",
+        "object_location": "http://localhost:4000/ummaa-textiles/objects/2002_3_11.jpg",
         "reference_url": "/ummaa-textiles/items/2002_3_11.html"
     },
     { 
@@ -1034,8 +1034,8 @@
         
         
         
-        
-        "object_location": "",
+        "object_thumb": "http://localhost:4000/ummaa-textiles/objects/thumbs/2002_3_18.jpg",
+        "object_location": "http://localhost:4000/ummaa-textiles/objects/2002_3_18.jpg",
         "reference_url": "/ummaa-textiles/items/2002_3_18.html"
     },
     { 
@@ -1054,8 +1054,8 @@
         
         
         
-        
-        "object_location": "",
+        "object_thumb": "http://localhost:4000/ummaa-textiles/objects/thumbs/2002_3_19.jpg",
+        "object_location": "http://localhost:4000/ummaa-textiles/objects/2002_3_19.jpg",
         "reference_url": "/ummaa-textiles/items/2002_3_19.html"
     },
     { 
@@ -1074,8 +1074,8 @@
         
         
         
-        
-        "object_location": "",
+        "object_thumb": "http://localhost:4000/ummaa-textiles/objects/thumbs/2002_3_20.jpg",
+        "object_location": "http://localhost:4000/ummaa-textiles/objects/2002_3_20.jpg",
         "reference_url": "/ummaa-textiles/items/2002_3_20.html"
     },
     { 
@@ -1114,8 +1114,8 @@
         
         
         
-        
-        "object_location": "",
+        "object_thumb": "http://localhost:4000/ummaa-textiles/objects/thumbs/2002_3_22.jpg",
+        "object_location": "http://localhost:4000/ummaa-textiles/objects/2002_3_22.jpg",
         "reference_url": "/ummaa-textiles/items/2002_3_22.html"
     },
     { 
@@ -1134,8 +1134,8 @@
         
         
         
-        
-        "object_location": "",
+        "object_thumb": "http://localhost:4000/ummaa-textiles/objects/thumbs/2002_3_23.jpg",
+        "object_location": "http://localhost:4000/ummaa-textiles/objects/2002_3_23.jpg",
         "reference_url": "/ummaa-textiles/items/2002_3_23.html"
     },
     { 
@@ -1154,8 +1154,8 @@
         
         
         
-        
-        "object_location": "",
+        "object_thumb": "http://localhost:4000/ummaa-textiles/objects/thumbs/2002_3_24.jpg",
+        "object_location": "http://localhost:4000/ummaa-textiles/objects/2002_3_24.jpg",
         "reference_url": "/ummaa-textiles/items/2002_3_24.html"
     },
     { 
@@ -1174,8 +1174,8 @@
         
         
         
-        
-        "object_location": "",
+        "object_thumb": "http://localhost:4000/ummaa-textiles/objects/thumbs/2002_3_25.jpg",
+        "object_location": "http://localhost:4000/ummaa-textiles/objects/2002_3_25.jpg",
         "reference_url": "/ummaa-textiles/items/2002_3_25.html"
     },
     { 
@@ -1194,8 +1194,8 @@
         
         
         
-        
-        "object_location": "",
+        "object_thumb": "http://localhost:4000/ummaa-textiles/objects/thumbs/2002_3_26.jpg",
+        "object_location": "http://localhost:4000/ummaa-textiles/objects/2002_3_26.jpg",
         "reference_url": "/ummaa-textiles/items/2002_3_26.html"
     },
     { 
@@ -1214,8 +1214,8 @@
         
         
         
-        
-        "object_location": "",
+        "object_thumb": "http://localhost:4000/ummaa-textiles/objects/thumbs/2002_3_27.jpg",
+        "object_location": "http://localhost:4000/ummaa-textiles/objects/2002_3_27.jpg",
         "reference_url": "/ummaa-textiles/items/2002_3_27.html"
     },
     { 
@@ -1234,8 +1234,8 @@
         
         
         
-        
-        "object_location": "",
+        "object_thumb": "http://localhost:4000/ummaa-textiles/objects/thumbs/2002_3_28.jpg",
+        "object_location": "http://localhost:4000/ummaa-textiles/objects/2002_3_28.jpg",
         "reference_url": "/ummaa-textiles/items/2002_3_28.html"
     },
     { 
@@ -1254,8 +1254,8 @@
         
         
         
-        
-        "object_location": "",
+        "object_thumb": "http://localhost:4000/ummaa-textiles/objects/thumbs/2002_3_29.jpg",
+        "object_location": "http://localhost:4000/ummaa-textiles/objects/2002_3_29.jpg",
         "reference_url": "/ummaa-textiles/items/2002_3_29.html"
     },
     { 
@@ -1274,8 +1274,8 @@
         
         
         
-        
-        "object_location": "",
+        "object_thumb": "http://localhost:4000/ummaa-textiles/objects/thumbs/2002_3_30.jpg",
+        "object_location": "http://localhost:4000/ummaa-textiles/objects/2002_3_30.jpg",
         "reference_url": "/ummaa-textiles/items/2002_3_30.html"
     },
     { 
@@ -1294,8 +1294,8 @@
         
         
         
-        
-        "object_location": "",
+        "object_thumb": "http://localhost:4000/ummaa-textiles/objects/thumbs/2002_3_31.jpg",
+        "object_location": "http://localhost:4000/ummaa-textiles/objects/2002_3_31.jpg",
         "reference_url": "/ummaa-textiles/items/2002_3_31.html"
     },
     { 
@@ -1894,8 +1894,8 @@
         
         
         
-        
-        "object_location": "",
+        "object_thumb": "http://localhost:4000/ummaa-textiles/objects/thumbs/2002_3_32.jpg",
+        "object_location": "http://localhost:4000/ummaa-textiles/objects/2002_3_32.jpg",
         "reference_url": "/ummaa-textiles/items/2002_3_32.html"
     },
     { 
@@ -1914,8 +1914,8 @@
         
         
         
-        
-        "object_location": "",
+        "object_thumb": "http://localhost:4000/ummaa-textiles/objects/thumbs/2002_3_33.jpg",
+        "object_location": "http://localhost:4000/ummaa-textiles/objects/2002_3_33.jpg",
         "reference_url": "/ummaa-textiles/items/2002_3_33.html"
     },
     { 
@@ -1954,8 +1954,8 @@
         
         
         
-        
-        "object_location": "",
+        "object_thumb": "http://localhost:4000/ummaa-textiles/objects/thumbs/2002_3_35.jpg",
+        "object_location": "http://localhost:4000/ummaa-textiles/objects/2002_3_35.jpg",
         "reference_url": "/ummaa-textiles/items/2002_3_35.html"
     },
     { 
@@ -1974,8 +1974,8 @@
         
         
         
-        
-        "object_location": "",
+        "object_thumb": "http://localhost:4000/ummaa-textiles/objects/thumbs/2002_3_36.jpg",
+        "object_location": "http://localhost:4000/ummaa-textiles/objects/2002_3_36.jpg",
         "reference_url": "/ummaa-textiles/items/2002_3_36.html"
     },
     { 
@@ -1994,8 +1994,8 @@
         
         
         
-        
-        "object_location": "",
+        "object_thumb": "http://localhost:4000/ummaa-textiles/objects/thumbs/2002_3_37.jpg",
+        "object_location": "http://localhost:4000/ummaa-textiles/objects/2002_3_37.jpg",
         "reference_url": "/ummaa-textiles/items/2002_3_37.html"
     },
     { 
@@ -2014,8 +2014,8 @@
         
         
         
-        
-        "object_location": "",
+        "object_thumb": "http://localhost:4000/ummaa-textiles/objects/thumbs/2002_3_38.jpg",
+        "object_location": "http://localhost:4000/ummaa-textiles/objects/2002_3_38.jpg",
         "reference_url": "/ummaa-textiles/items/2002_3_38.html"
     },
     { 
@@ -2034,8 +2034,8 @@
         
         
         
-        
-        "object_location": "",
+        "object_thumb": "http://localhost:4000/ummaa-textiles/objects/thumbs/2002_3_39.jpg",
+        "object_location": "http://localhost:4000/ummaa-textiles/objects/2002_3_39.jpg",
         "reference_url": "/ummaa-textiles/items/2002_3_39.html"
     },
     { 
@@ -2054,8 +2054,8 @@
         
         
         
-        
-        "object_location": "",
+        "object_thumb": "http://localhost:4000/ummaa-textiles/objects/thumbs/2002_3_40.jpg",
+        "object_location": "http://localhost:4000/ummaa-textiles/objects/2002_3_40.jpg",
         "reference_url": "/ummaa-textiles/items/2002_3_40.html"
     },
     { 
@@ -2199,7 +2199,7 @@
         "reference_url": "/ummaa-textiles/items/8008_a.html"
     },
     { 
-        "title": "8053_a: 2 inlaid slippers from the Philippine Islands (possible came from India?) ",
+        "title": "8053_a: 2 inlaid slippers from the Philippine Islands (possible came from India?)",
         
         
         
@@ -2219,7 +2219,7 @@
         "reference_url": "/ummaa-textiles/items/8053_a.html"
     },
     { 
-        "title": "8053_b: 2 inlaid slippers from the Philippine Islands (possible came from India?) ",
+        "title": "8053_b: 2 inlaid slippers from the Philippine Islands (possible came from India?)",
         
         
         
