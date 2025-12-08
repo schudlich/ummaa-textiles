@@ -27,7 +27,7 @@ Some metadata fields may be limited or blank due to gaps in the original data an
 
 ### Theresa Azemar, MSI
 
-Theresa is a second year graduate student pursuing their Master's of Science in Information at the University of Michigan School of Information. 
+Theresa is a second year graduate student pursuing their Master's of Science in Information at the University of Michigan School of Information. Outside of classes, Theresa works at the University of Michigan's William L. Clements Library in both the Reference and Manuscript Divisions. Theresa's academic interest include American intellectual history, and they hope to pursue American Studies subject librarianship post graduation.  
 
 ### Evan Gomish, MSI
 
