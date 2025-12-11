@@ -1,5 +1,7 @@
 import csv
 import re
+import os
+from pathlib import Path
 
 # +-----------+
 # |    MAP    |
@@ -29,6 +31,9 @@ import re
 # "Curatorial Notes"    -> mods:recordInfo.recordInfoNote
 
 all_data = []
+
+root_dir = Path(os.getcwd()).parent
+err_count = 0
 
 # extract data from the spreadsheet
 with open("ummaa-textiles.csv") as fin:
@@ -122,6 +127,17 @@ for entry in all_data:
     elem["title"] = elem["objectid"] + ": " + elem["mods:abstract"].split("\n")[0].split(".")[0]
     elem["format"] = "image/jpeg"
 
+    img_dir = "objects/"
+    imgname = img_dir + elem["objectid"] + ".jpg"
+    path = root_dir / imgname
+    if path.exists():
+        elem["object_location"] = imgname
+        elem["image_small"] = img_dir + "small/" + elem["objectid"] + "_sm.jpg"
+        elem["image_thumb"] = img_dir + "thumbs/" + elem["objectid"] + "_th.jpg"
+    else:
+        err_count += 1
+        print("ERR: No image found for", elem["objectid"])
+
     mapped_data.append(elem)
 
 # export the data to csv
@@ -152,11 +168,15 @@ headers = [
     "mods:subject.hierarchicalGeographic.city",
     "mods:originInfo",
     "mods:abstract",
-    "mods:recordInfo.recordInfoNote"
+    "mods:recordInfo.recordInfoNote",
+    "object_location",
+    "image_small",
+    "image_thumb"
 ]
 with open("../_data/ummaa-objects.csv", 'w', newline="", encoding="utf-8") as dataout:
     fout = csv.DictWriter(dataout, fieldnames=headers, extrasaction="ignore", dialect="unix")
     fout.writeheader()
     fout.writerows(mapped_data)
 
-
+if err_count > 0:
+    print("Errors found in", err_count, "objects.")
