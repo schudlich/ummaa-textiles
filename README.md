@@ -6,7 +6,7 @@ This Exhibit is made up of 140 items from the University of Michigan Museum of A
 Some metadata fields may be limited or blank due to gaps in the original data and more complete metadata could potentially be found through UMMAA.
 
 ## Viewing the Collection
-The source metadata can be found [within this repository](https://github.com/schudlich/ummaa-textiles/blob/c1b5b02133f5ecc7d2886eba6ebfa34065c206dd/scripts/UMMAA_all_Philippine_objects-for_distribution.csv), and the collection is hosted [here on GitHub](schudlich.github.io/ummaa-textiles/).
+The source metadata can be found [within this repository](https://github.com/schudlich/ummaa-textiles/blob/c1b5b02133f5ecc7d2886eba6ebfa34065c206dd/scripts/UMMAA_all_Philippine_objects-for_distribution.csv), and the collection is hosted [here on GitHub](https://schudlich.github.io/ummaa-textiles/).
 
 
 ## Collection Builder
