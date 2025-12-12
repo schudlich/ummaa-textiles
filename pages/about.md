@@ -31,7 +31,7 @@ Theresa is a second year graduate student pursuing their Master's of Science in 
 
 ### Evan Gomish, MSI
 
-Evan is a second year graduate student pursuing their Master's of Science in Information at the University of Michigan School of Information. 
+Evan is a second year graduate student pursuing their Master's of Science in Information at the University of Michigan School of Information (expected graduation 2026). Outside of classes, Evan works at the Hatcher Graduate Library as an Ask a Librarian assistant. Evan's academic and research interests include altmetrics and classification in the social sciences, and they enjoy writing ETL scripts in their free time.
 
 ### Tanner Schudlich, MSW, MSI
 
