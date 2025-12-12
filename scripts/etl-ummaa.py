@@ -30,6 +30,22 @@ from pathlib import Path
 # "Description"         -> mods:abstract
 # "Curatorial Notes"    -> mods:recordInfo.recordInfoNote
 
+def is_textile(obj):
+    textile_object_types = {"bag", "belt", "blanket", "blouse", "bracelet", "breechcloth", "charm", "cloth fragments", "coat", "cordage", "earring", "fan", "hat", "headdress", "jacket", "kris", "lamp", "lid (cover)", "money", "necklace", "pants", "pocket", "quiver", "sarong", "scarf", "sheath", "shirt", "skirt", "slipper", "strainer (or sieve)", "table cloth", "tapestry", "textile", "unknown"}
+    textile_descriptions = {"textile"}
+    textile_materials = {"cotton", "fiber", "textile", "silk"}
+
+    for objtype in textile_object_types:
+        if objtype in obj["Object Type"].lower():
+            for desc in textile_descriptions:
+                if desc in obj["Description"].lower():
+                    return True
+            for mat in textile_materials:
+                if mat in obj["Materials"].lower():
+                    return True
+    return False
+
+
 all_data = []
 
 root_dir = Path(os.getcwd()).parent
@@ -38,10 +54,11 @@ err_count = 0
 logger = open("log.txt", "w")
 
 # extract data from the spreadsheet
-with open("ummaa-textiles.csv") as fin:
+with open("UMMAA_all_Philippine_objects-for_distribution.csv") as fin:
     raw_data = csv.DictReader(fin, delimiter=',')
     for entry in raw_data:
-        all_data.append(entry)
+        if is_textile(entry):
+            all_data.append(entry)
 
 print("LOG:", len(all_data), "objects extracted", file=logger)
 
@@ -54,7 +71,8 @@ for entry in all_data:
     elem["dcterms:identifier"] = entry["Object identifier"]
     elem["dcterms:collection"] = entry["Divisions"]
 
-    accdate = entry["AccessionDate"]
+    accessioninfo = entry["Accession Description"].split(' ')
+    accdate = accessioninfo[-2]
     match = re.search("\d{2}/\d{2}/\d{4}", accdate) # MM/DD/YYYY format
     if match:
         splitdate = accdate.split("/")
@@ -76,8 +94,14 @@ for entry in all_data:
         accdate = "19" + splitdate[2] + "-" + splitdate[0] + "-" + splitdate[1]
     elem["mods:dateOther"] = accdate
 
-    elem["dcterms:accrualMethod"] = entry["AccessionMethod"]
-    elem["mods:recordIdentifier"] = entry["Accession Number"]
+    elem["dcterms:accrualMethod"] = accessioninfo[-3]
+    if elem["dcterms:accrualMethod"] == "Expedition":
+        elem["dcterms:accrualMethod"] = "UMMAA Expedition"
+
+    if entry["Accession Number"]:
+        elem["mods:recordIdentifier"] = entry["Accession Number"].split(": ")[1].strip()
+    else:
+        elem["mods:recordIdentifier"] = "0"
     elem["dcterms:type"] = entry["Object Type"]
     elem["dcterms:medium"] = entry["Materials"]
     elem["mods:abstract"] = entry["Description"]
@@ -96,7 +120,8 @@ for entry in all_data:
         elem["mods:originInfo"] = entry["Culture"]
     if entry["Verbatim Geography"] != '':
         gterms = ["continent", "region", "country", "state"]
-        geog = entry["Verbatim Geography"].split("-")
+        # XXX: sometimes there's a fifth location--municipality?
+        geog = entry["Verbatim Geography"].split("-", maxsplit=len(gterms)-1)
         i = 0
         for i in range(len(geog)):
             if geog[i] == '':
@@ -106,7 +131,7 @@ for entry in all_data:
     if entry["Geographic Location"] != '':
         geog = entry["Geographic Location"]
         gterms = ["citySection", "state"]
-        geog = geog.split(", ")
+        geog = geog.split(", ", maxsplit=len(gterms)-1)
         i = 0
         for i in range(len(geog)):
             elem["mods:subject.hierarchicalGeographic." + gterms[i]] = geog[i]
