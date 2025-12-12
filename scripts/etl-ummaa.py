@@ -43,6 +43,8 @@ with open("ummaa-textiles.csv") as fin:
     for entry in raw_data:
         all_data.append(entry)
 
+print("LOG:", len(all_data), "objects extracted", file=logger)
+
 # transform the data according to the MAP
 mapped_data = []
 for entry in all_data:
@@ -181,10 +183,10 @@ with open("../_data/ummaa-objects.csv", 'w', newline="", encoding="utf-8") as da
     fout.writerows(mapped_data)
 
 if err_count > 0:
-    print("Errors found in", err_count, "objects.", file=logger)
+    print(err_count, "errors found in", len(mapped_data), "processed objects", file=logger)
 
 if logger:
     logger.close()
 
 if err_count > 0:
-    exit("Errors occurred during ETL.")
+    exit("Errors occurred during ETL, see scripts/log.txt")
