@@ -49,6 +49,7 @@ def is_textile(obj):
 all_data = []
 
 root_dir = Path(os.getcwd()).parent
+total_count = 0
 err_count = 0
 
 logger = open("log.txt", "w")
@@ -57,10 +58,13 @@ logger = open("log.txt", "w")
 with open("UMMAA_all_Philippine_objects-for_distribution.csv") as fin:
     raw_data = csv.DictReader(fin, delimiter=',')
     for entry in raw_data:
+        total_count += 1
         if is_textile(entry):
             all_data.append(entry)
+        else:
+            print("WARN: Object", entry["Object identifier"], "discarded (not a textile).", file=logger)
 
-print("LOG:", len(all_data), "objects extracted", file=logger)
+print("LOG:", len(all_data), "of", total_count, "total objects extracted", file=logger)
 
 # transform the data according to the MAP
 mapped_data = []
@@ -169,6 +173,8 @@ for entry in all_data:
 
     mapped_data.append(elem)
 
+print("LOG:", len(mapped_data), "objects transformed, with", err_count, "errors", file=logger)
+
 # export the data to csv
 headers = [
     "objectid",
@@ -207,8 +213,7 @@ with open("../_data/ummaa-objects.csv", 'w', newline="", encoding="utf-8") as da
     fout.writeheader()
     fout.writerows(mapped_data)
 
-if err_count > 0:
-    print(err_count, "errors found in", len(mapped_data), "processed objects", file=logger)
+print("LOG:", len(mapped_data), "objects loaded", file=logger)
 
 if logger:
     logger.close()
