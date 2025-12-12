@@ -35,6 +35,8 @@ all_data = []
 root_dir = Path(os.getcwd()).parent
 err_count = 0
 
+logger = open("log.txt", "w")
+
 # extract data from the spreadsheet
 with open("ummaa-textiles.csv") as fin:
     raw_data = csv.DictReader(fin, delimiter=',')
@@ -136,7 +138,7 @@ for entry in all_data:
         elem["image_thumb"] = img_dir + "thumbs/" + elem["objectid"] + "_th.jpg"
     else:
         err_count += 1
-        print("ERR: No image found for", elem["objectid"])
+        print("ERR: No image found for", elem["objectid"], file=logger)
 
     mapped_data.append(elem)
 
@@ -179,4 +181,10 @@ with open("../_data/ummaa-objects.csv", 'w', newline="", encoding="utf-8") as da
     fout.writerows(mapped_data)
 
 if err_count > 0:
-    print("Errors found in", err_count, "objects.")
+    print("Errors found in", err_count, "objects.", file=logger)
+
+if logger:
+    logger.close()
+
+if err_count > 0:
+    exit("Errors occurred during ETL.")
