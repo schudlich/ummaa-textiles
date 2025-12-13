@@ -8,6 +8,8 @@ Some metadata fields may be limited or blank due to gaps in the original data an
 ## Viewing the Collection
 The source metadata can be found [within this repository](https://github.com/schudlich/ummaa-textiles/blob/c1b5b02133f5ecc7d2886eba6ebfa34065c206dd/scripts/UMMAA_all_Philippine_objects-for_distribution.csv), and the collection is hosted [here on GitHub](https://schudlich.github.io/ummaa-textiles/).
 
+For a list of objects that still need work to display correctly, see [the current error log](https://github.com/schudlich/ummaa-textiles/blob/4772a0ee27c0e66b3f2828f39b40abae47f18a6e/scripts/log.txt).
+
 
 ## Collection Builder
 
